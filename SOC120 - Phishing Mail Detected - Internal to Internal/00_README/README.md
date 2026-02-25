@@ -52,13 +52,22 @@ This laboratory training gave us the following skills:
 ## 📂 Project Structure
 
 ```bash
-SOC120 – 52 Phishing Mail Detected – Internal to Internal/
-├── README.md
-├── FinalPhotos.png
-├── InformationAboutAlerts.png
-├── EndpointSecurity.png
-├── Email.png
-├── OurArtefacts.png
-├── ClosedAlert.png
-└── virustot2.png
+SOC120_Phishing_Mail_Detected/
+│
+├── 00_README/
+    └── README.md
+├── 01_Email/
+│   ├── Email_Questions.png
+│   └── Email_Security.png
+│
+├── 02_Tools_VT_&_AbuseIPDB/
+│   ├── AbuseIPDB.png
+│   └── VirusTotal.png
+│
+├── │03_Logs_Analysis/
+│   └── Lpgs.png
+│
+├── 04_Analysis_of_Investigations/
+│   ├── Artifacts.png
+│   └── Results_of_my_research.png
 ```
