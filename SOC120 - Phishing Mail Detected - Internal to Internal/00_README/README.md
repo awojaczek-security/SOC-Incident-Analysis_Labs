@@ -33,9 +33,9 @@ The following tools were used in this alert:
 - [AbuseIPDB](https://www.abuseipdb.com/)
 
 ## 📸 Photos of Incidents:
-![Results](ResultsofmyInvestigations.png)
-![Results](SOC120 - Phishing Mail Detected - Internal to Internal/ResultsofmyInvestigations.png)
-![Results](![Results](SOC120 - Phishing Mail Detected - Internal to Internal/ResultsofmyInvestigations.png)
+![Email Questions](../01_Email/Email_Questions.png)
+![Email Security](../01_Email/Email_Security.png)
+
 ## 🔥 Lessons Learned
 
 Although the alert was ultimately classified as a false positive, it was a very good example of how to deal with an event that often occurs in the daily work of a SOC team. 
