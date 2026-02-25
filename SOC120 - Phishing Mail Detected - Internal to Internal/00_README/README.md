@@ -49,8 +49,12 @@ Answers to these questions after conducting the analysis:
 - **What is the recipient address?** susie@letsdefend[.]io  
 - **Is the mail content suspicious?** No, the content isn't suspicious  
 - **Are there any attachments?** No, there are no attachments 
+<p align="center">
+  <img src="../01_Email/Email_Security.png" width="600">
+  <br>
+  <em>Figure 2: Email Message</em>
+</p>
 
-![Email Security](../01_Email/Email_Security.png)
 
 The IP address 172[.]16[.]20[.]3 was analyzed using VirusTotal. 
 The scan results showed 0 detections across all security vendors, 
