@@ -15,7 +15,7 @@
 
 ## 📁 SUMMARY
 
-On February 7, 2021, at 4:24 a.m., our system sent an alert regarding an internal email sent from “john@letsdefend.io” to “susie@letsdefend.io.” 
+On February 7, 2021, at 4:24 A.M., our system sent an alert regarding an internal email sent from “john@letsdefend.io” to “susie@letsdefend.io.” 
 This message contained information about a meeting. The message read: “Hi Susie, can we schedule a meeting today if you have time?” Both emails had the domain “letsdefend[.]io.”
 
 **Details of this Incients:**
@@ -33,7 +33,18 @@ The following tools were used in this alert:
 - [AbuseIPDB](https://www.abuseipdb.com/)
 
 ## 📸 Photos of Incidents:
+
+In our Playbook we have a few question before we starting the analysis. This information about the incoming email should be obtained:
 ![Email Questions](../01_Email/Email_Questions.png)
+
+Answers to these questions after conducting the analysis:
+•	When was it sent? February 7, 2021, at 4:24 A.M
+•	What is the email's SMTP address? 172[.]16[.]20[.]3
+•	What is the sender address? john@letsdefend[.]io
+•	What is the recipient address? susie@letsdefend[.]io
+•	Is the mail content suspicious? No, the content isn't suspicious
+•	Are there any attachment? No, there are no attachments.
+
 ![Email Security](../01_Email/Email_Security.png)
 
 ## 🔥 Lessons Learned
