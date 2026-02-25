@@ -123,7 +123,7 @@ This laboratory training gave us the following skills:
 SOC120_Phishing_Mail_Detected/
 │
 ├── 00_README/
-    └── README.md
+│   └── README.md
 ├── 01_Email/
 │   ├── Email_Questions.png
 │   └── Email_Security.png
@@ -133,7 +133,7 @@ SOC120_Phishing_Mail_Detected/
 │   └── VirusTotal.png
 │
 ├── │03_Logs_Analysis/
-│   └── Lpgs.png
+│   └── Logs.png
 │
 ├── 04_Analysis_of_Investigations/
 │   ├── Artifacts.png
