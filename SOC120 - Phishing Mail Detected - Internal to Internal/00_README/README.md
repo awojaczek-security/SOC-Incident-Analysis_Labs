@@ -38,12 +38,12 @@ In our Playbook we have a few question before we starting the analysis. This inf
 ![Email Questions](../01_Email/Email_Questions.png)
 
 Answers to these questions after conducting the analysis:
-•	When was it sent? February 7, 2021, at 4:24 A.M
-•	What is the email's SMTP address? 172[.]16[.]20[.]3
-•	What is the sender address? john@letsdefend[.]io
-•	What is the recipient address? susie@letsdefend[.]io
-•	Is the mail content suspicious? No, the content isn't suspicious
-•	Are there any attachment? No, there are no attachments.
+-	When was it sent? February 7, 2021, at 4:24 A.M
+-	What is the email's SMTP address? 172[.]16[.]20[.]3
+-	What is the sender address? john@letsdefend[.]io
+-	What is the recipient address? susie@letsdefend[.]io
+-	Is the mail content suspicious? No, the content isn't suspicious
+-	Are there any attachment? No, there are no attachments.
 
 ![Email Security](../01_Email/Email_Security.png)
 
