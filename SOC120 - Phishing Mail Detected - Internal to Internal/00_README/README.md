@@ -88,14 +88,14 @@ The logs corresponding to the date of the alert provide detailed information reg
 po przeprowadzeniu dochodzenia i zebraniu potrzebnych informacji mozna
 </p>
 <p align="center">
-  <img src="../04Results_of_Investigations/Artifacts" width="600">
+  <img src="../04_Results_of_Investigations/Artifacts" width="600">
   <br>
   <em>Figure 6: Artifacts</em>
 </p>
 
 </p>
 <p align="center">
-  <img src="../04_Results_of_Investigations/Artifacts" width="600">
+  <img src="../04_Results_of_Investigations/Results_of_my_research" width="600">
   <br>
   <em>Figure 7: Results_of_my_research</em>
 </p>
