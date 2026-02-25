@@ -35,7 +35,12 @@ The following tools were used in this alert:
 ## 📸 Photos of Incidents:
 
 In our Playbook we have a few question before we starting the analysis. This information about the incoming email should be obtained:
-![Email Questions](../01_Email/Email_Questions.png)
+
+<p align="center">
+  <img src="../01_Email/Email_Questions.png" width="600">
+  <br>
+  <em>Figure 1: Email Questions Analysis</em>
+</p>
 
 Answers to these questions after conducting the analysis:
 - **When was it sent?** February 7, 2021, at 4:24 A.M  
@@ -47,6 +52,12 @@ Answers to these questions after conducting the analysis:
 
 ![Email Security](../01_Email/Email_Security.png)
 
+The IP address 172[.]16[.]20[.]3 was analyzed using VirusTotal. 
+The scan results showed 0 detections across all security vendors, 
+indicating no known malicious activity or reputation concerns at the time of analysis.
+
+![Email Security](../02_Tools_VT_&_AbuseIPD/VirusTotal.png)
+![Email Security](../02_Tools_VT_&_AbuseIPD/AbuseIPDB.png)
 ## 🔥 Lessons Learned
 
 Although the alert was ultimately classified as a false positive, it was a very good example of how to deal with an event that often occurs in the daily work of a SOC team. 
