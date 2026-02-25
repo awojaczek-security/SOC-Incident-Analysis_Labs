@@ -139,7 +139,7 @@ SOC120_Phishing_Mail_Detected/
 ├── │03_Logs_Analysis/
 │   └── Logs.png
 │
-├── 04_Analysis_of_Investigations/
+├── 04_Analysis of Investigations/
 │   ├── Artifacts.png
 │   └── Results_of_my_research.png
 ```
