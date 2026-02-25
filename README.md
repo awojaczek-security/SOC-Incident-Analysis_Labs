@@ -1,4 +1,4 @@
-# 📄 Project Title:
+# 📄 Name of the completed project :
 **Incident analysis: Phishing Mail Detected – Internal to Internal**
 
 ---
@@ -31,7 +31,6 @@ The following tools were used in this alert:
 
 - [VirusTotal](https://www.virustotal.com/)
 - [AbuseIPDB](https://www.abuseipdb.com/)
-- [URLhaus](https://urlhaus.abuse.ch/)
 
 ## 📸 Photos of Incidents:
 
