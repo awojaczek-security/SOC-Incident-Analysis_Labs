@@ -19,9 +19,9 @@ On February 7, 2021, at 4:24 a.m., our system sent an alert regarding an interna
 This message contained information about a meeting. The message read: “Hi Susie, can we schedule a meeting today if you have time?” Both emails had the domain “letsdefend[.]io.”
 
 **Details of this Incients:**
-SMTP Address: 172.16.20.3
-Sender address: john@letsdefend.io
-Recipient address: Susie@letsdefend.io
+- SMTP Address: 172.16.20.3
+- Sender address: john@letsdefend.io
+- Recipient address: Susie@letsdefend.io
 
 ---
 
