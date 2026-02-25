@@ -74,6 +74,13 @@ In this case, no suspicious traces were found either.
   <em>Figure 4: AbuseIPDB Screenshot</em>
 </p>
 
+The next 
+</p>
+<p align="center">
+  <img src="../03_Logs_Analysis/Logs.png" width="600">
+  <br>
+  <em>Figure 5: Logs Managementt</em>
+</p>
 ## 🔥 Lessons Learned
 
 Although the alert was ultimately classified as a false positive, it was a very good example of how to deal with an event that often occurs in the daily work of a SOC team. 
