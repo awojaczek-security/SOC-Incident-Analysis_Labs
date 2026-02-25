@@ -85,7 +85,8 @@ The logs corresponding to the date of the alert provide detailed information reg
   <em>Figure 5: Log Management</em>
 </p>
 
-po przeprowadzeniu dochodzenia i zebraniu potrzebnych informacji mozna
+After completing the investigation and gathering all relevant evidence, the findings were analyzed, final conclusions were determined, and supporting artifacts were included to document the investigation process.
+These artifacts include:
 </p>
 <p align="center">
   <img src="../04_Results_of_Investigations/Artifacts.png" width="600">
@@ -93,6 +94,7 @@ po przeprowadzeniu dochodzenia i zebraniu potrzebnych informacji mozna
   <em>Figure 6: Artifacts</em>
 </p>
 
+The final results after the case was closed:
 </p>
 <p align="center">
   <img src="../04_Results_of_Investigations/Results_of_my_research.png" width="600">
@@ -100,12 +102,14 @@ po przeprowadzeniu dochodzenia i zebraniu potrzebnych informacji mozna
   <em>Figure 7: Results_of_my_research</em>
 </p>
 
+
 ## 🔥 Lessons Learned
 
-Although the alert was ultimately classified as a false positive, it was a very good example of how to deal with an event that often occurs in the daily work of a SOC team. 
-Incidents of this type cannot be underestimated and require thorough analysis each time, as they may contain various types of malicious artifacts.
+Although the alert was ultimately classified as a false positive, it provided valuable insight into handling events that commonly occur in a SOC environment.
 
-Every alert should be verified, even if it seems insignificant at first glance. As SOC analysts, we must remain vigilant and conduct our investigations in a thorough and methodical manner.
+Such incidents should never be underestimated and require consistent, detailed analysis, as they may contain hidden malicious artifacts.
+
+Every alert must be properly validated, even if it initially appears insignificant. As SOC analysts, we must remain vigilant and approach each investigation in a structured manner.
 
 This laboratory training gave us the following skills:
 - it strengthened our skills in using online tools such as AbusedIPDB and VirusTotal.
