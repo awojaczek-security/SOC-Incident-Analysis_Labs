@@ -55,13 +55,20 @@ Answers to these questions after conducting the analysis:
   <em>Figure 2: Email Message</em>
 </p>
 
-
 The IP address 172[.]16[.]20[.]3 was analyzed using VirusTotal. 
 The scan results showed 0 detections across all security vendors, 
 indicating no known malicious activity or reputation concerns at the time of analysis.
+<p align="center">
+  <img src="../02_Tools_VT_&_AbuseIPD/VirusTotal.png" width="600">
+  <br>
+  <em>Figure 3: VirusTotal Screenshot</em>
+</p>
+<p align="center">
+  <img src="../02_Tools_VT_&_AbuseIPD/AbuseIPDB.png" width="600">
+  <br>
+  <em>Figure 4: AbuseIPDB Screenshot</em>
+</p>
 
-![Email Security](../02_Tools_VT_&_AbuseIPD/VirusTotal.png)
-![Email Security](../02_Tools_VT_&_AbuseIPD/AbuseIPDB.png)
 ## 🔥 Lessons Learned
 
 Although the alert was ultimately classified as a false positive, it was a very good example of how to deal with an event that often occurs in the daily work of a SOC team. 
