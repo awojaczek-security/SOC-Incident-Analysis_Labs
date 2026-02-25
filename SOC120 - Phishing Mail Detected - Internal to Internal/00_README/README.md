@@ -74,12 +74,15 @@ In this case, no suspicious traces were found either.
   <em>Figure 4: AbuseIPDB Screenshot</em>
 </p>
 
-The next 
+The next step is to verify the information regarding log management.
+The logs are very extensive, but this is due to the fact that they are logs from the mail server.
+The logs corresponding to the date of the alert provide detailed information regarding the event detected by the security monitoring system.
+
 </p>
 <p align="center">
   <img src="../03_Logs_Analysis/Logs.png" width="600">
   <br>
-  <em>Figure 5: Logs Managementt</em>
+  <em>Figure 5: Log Management</em>
 </p>
 ## 🔥 Lessons Learned
 
