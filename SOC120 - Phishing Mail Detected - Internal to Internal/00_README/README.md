@@ -102,6 +102,7 @@ The final results after the case was closed:
   <em>Figure 7: Results_of_my_research</em>
 </p>
 The Investigations SUMMARY:
+
 On February 7, 2021, at 4:24 A.M., our system sent an alert regarding an internal email sent from “john@letsdefend.io” to “susie@letsdefend.io.” This message contained information about a meeting. The message read: “Hi Susie, can we schedule a meeting today if you have time?” Both emails had the domain “letsdefend[.]io.”
 Based on the completed investigation and the collected evidence, the alert has been classified as a false positive.
 
