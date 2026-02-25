@@ -58,10 +58,15 @@ Answers to these questions after conducting the analysis:
 The IP address 172[.]16[.]20[.]3 was analyzed using VirusTotal. 
 The scan results showed 0 detections across all security vendors, 
 indicating no known malicious activity or reputation concerns at the time of analysis.
+
 <p align="center">
   <img src="../02_Tools_VT_&_AbuseIPD/VirusTotal.png" width="600">
   <br>
   <em>Figure 3: VirusTotal Screenshot</em>
+
+Additionally, we verify this information in the AbuseIPDB database.
+In this case, no suspicious traces were found either.
+
 </p>
 <p align="center">
   <img src="../02_Tools_VT_&_AbuseIPD/AbuseIPDB.png" width="600">
