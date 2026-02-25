@@ -127,6 +127,7 @@ SOC120_Phishing_Mail_Detected/
 │
 ├── 00_README/
 │   └── README.md
+│
 ├── 01_Email/
 │   ├── Email_Questions.png
 │   └── Email_Security.png
