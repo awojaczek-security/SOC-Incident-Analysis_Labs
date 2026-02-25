@@ -84,6 +84,22 @@ The logs corresponding to the date of the alert provide detailed information reg
   <br>
   <em>Figure 5: Log Management</em>
 </p>
+
+po przeprowadzeniu dochodzenia i zebraniu potrzebnych informacji mozna
+</p>
+<p align="center">
+  <img src="../04Results_of_Investigations/Artifacts" width="600">
+  <br>
+  <em>Figure 6: Artifacts</em>
+</p>
+
+</p>
+<p align="center">
+  <img src="../04_Results_of_Investigations/Artifacts" width="600">
+  <br>
+  <em>Figure 7: Results_of_my_research</em>
+</p>
+
 ## 🔥 Lessons Learned
 
 Although the alert was ultimately classified as a false positive, it was a very good example of how to deal with an event that often occurs in the daily work of a SOC team. 
