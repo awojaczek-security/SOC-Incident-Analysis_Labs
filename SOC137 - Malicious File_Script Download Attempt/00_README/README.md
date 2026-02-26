@@ -73,13 +73,13 @@ The file **INVOICE PACKAGE LINK TO DOWNLOAD.docm** was identified as malicious b
 The “IP Abuse Reports” section contains information on the number of reports from 312 different sources. The table shows sample reports where the comment indicates “SSH-Attack” and its category is “Brute-Force” and “SSH”. After analyzing both sources, it can now be concluded that this address has suspicious intentions.
 
 <p align="center">
-  <img src="../02_Tools_VT_&_Shell_Commands/Shell_Commands.png" width="600">
+  <img src="../02_Tools_VT_&_ANY-RUN/Shell_Commands.png" width="600">
   <br>
-  <em>Figure 3: VirusTotal Screenshot</em>
+  <em>Figure 2: VirusTotal Screenshot</em>
 </p>
 
 <p align="center">
-  <img src="../03_Macros_Office_Fileg/Macros_Office.png" width="600">
+  <img src="../03_Macros_Office_File/Macros_Office.png" width="600">
   <br>
   <em>Figure 4: Macros in Office File </em>
 </p>
