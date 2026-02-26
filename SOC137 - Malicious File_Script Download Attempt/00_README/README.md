@@ -11,8 +11,8 @@
 - **Detection Rule**: SOC137 - Malicious File/Script Download Attempt
 - **Alert Level**: Security Analyst
 - **File Name**: INVOICE PACKAGE LINK TO DOWNLOAD.docm
-- **Type**: Malware
 - **File Hash**: f2d0c66b801244c059f636d08a474079
+- **Type**: Malware
 - **Device Action**: Blocked
 ---
 
