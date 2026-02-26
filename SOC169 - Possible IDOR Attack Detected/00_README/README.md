@@ -160,19 +160,19 @@ The final results after the case was closed:
 </p>
 
 
-The Investigations SUMMARY:
+The Investigations **SUMMARY**:
 
-On February 28, 2022, at 10:48 P.M., our monitoring system triggered an alert and identified activity consistent with a potential IDOR attack. The requested URL was “hxxps://172.16.17.15/get_user_info/”, originating from the source IP address 134.209.118.137. 
+On February 28, 2022, at 10:48 P.M., our monitoring system generated an alert indicating activity consistent with a suspected IDOR attack. The request was made to the URL “hxxps://172.16.17.15/get_user_info/” and originated from the IP address 134.209.118.137.
 
-An IDOR (Insecure Direct Object Reference) attack is a type of security vulnerability in which attackers manipulate application input to gain unauthorized access to resources by directly referencing objects such as files, database records, or user information.
+An Insecure Direct Object Reference (IDOR) vulnerability allows attackers to manipulate application parameters in order to access unauthorized resources directly, such as files, database records, or user-related data.
 
-An analysis of the reputation of the suspicious IP address 134.209.118.137 using the VirusTotal tool did not reveal any active detections by security engines. At the time of analysis, the scan result showed 0 detections, which means that there were no confirmed malicious activities according to the available security providers.
+A reputation assessment of the suspicious IP address 134.209.118.137 was conducted using VirusTotal. At the time of the review, no security vendors reported detections, and the scan result indicated zero flagged threats, suggesting no confirmed malicious classification by automated engines.
 
-However, attention should be paid to the Community Score section, which contained reports suggesting potentially malicious activity. This information cannot be ignored and requires further verification.
+Nevertheless, the Community Score section included user reports indicating possible malicious behavior. These findings warrant additional scrutiny and should not be disregarded.
 
-The AbuseIPDB tool was also used to confirm the reputation of the IP address, which classified the specified address as malicious. The analysis showed that the IP address is associated with the digitalocean[.]com domain and is located in the United States.
+To further validate the reputation of the IP address, AbuseIPDB was consulted. This platform classified the address as malicious. Additional analysis revealed that the IP is linked to the domain digitalocean[.]com and is geolocated in the United States.
 
-The POST requests sent to the URL by the threat actor were successful, as indicated by the HTTP 200 response status code. Immediate blocking of the identified IP address is recommended, and the incident should be escalated to the SOC L2 team for further investigation.
+The POST requests issued to the targeted endpoint were processed successfully, as confirmed by the HTTP 200 status code returned by the server. It is recommended that the identified IP address be blocked without delay and that the incident be escalated to the SOC L2 team for comprehensive investigation.
 
 ## 🔥 Lessons Learned
 
