@@ -108,7 +108,7 @@ The first example log:
 <p align="center">
   <img src="../03_Logs_Analysis/Raw_Log_1.png" width="600">
   <br>
-  <em>Figure 5: Raw_logs_1 - user_id=2</em>
+  <em>Figure 5: Raw_logs_1 - user_id=1</em>
 </p>
 
 The second example log:
@@ -124,7 +124,7 @@ The third example log:
 <p align="center">
   <img src="../03_Logs_Analysis/Raw_Log_3.png" width="600">
   <br>
-  <em>Figure 7: Raw_logs_3 - user_id=2</em>
+  <em>Figure 7: Raw_logs_3 - user_id=4</em>
 </p>
 
 Below is an example of several logs for different user IDs.
