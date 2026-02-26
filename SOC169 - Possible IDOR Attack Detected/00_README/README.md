@@ -1,6 +1,6 @@
 
 # 📄 Name of the completed project :
-**Incident analysis: SOC169 - Possible IDOR Attack Detected**
+**Incident analysis: Possible IDOR Attack Detected**
 
 ---
 
