@@ -5,6 +5,11 @@
 ---
 
 ## 📅 Incident Details
+<p align="center">
+  <img src="../01_Details_about_incident/Incident_Details.png" width="600">
+  <br>
+  <em>Figure 1: Incident_Details</em>
+</p>
 
 - **Event ID**: 11  
 - **Event Time**: Feb, 07, 2021, 04:24 AM 
