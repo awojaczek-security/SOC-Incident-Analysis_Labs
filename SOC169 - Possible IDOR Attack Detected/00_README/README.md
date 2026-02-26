@@ -17,13 +17,15 @@
 
 ## 📁 SUMMARY
 
-On February 7, 2021, at 4:24 A.M., our system sent an alert regarding an internal email sent from “john@letsdefend.io” to “susie@letsdefend.io.” 
-This message contained information about a meeting. The message read: “Hi Susie, can we schedule a meeting today if you have time?” Both emails had the domain “letsdefend[.]io.”
+On February 28, 2022, at 10:48 P.M., our monitoring system triggered an alert and identified activity consistent with a potential IDOR attack. The requested URL was “hxxps://172.16.17.15/get_user_info/”, originating from the source IP address 134.209.118.137.
 
-**Details of this Incients:**
-- SMTP Address: 172.16.20.3
-- Sender address: john@letsdefend.io
-- Recipient address: Susie@letsdefend.io
+An analysis of the reputation of the suspicious IP address 134.209.118.137 using the VirusTotal tool did not reveal any active detections by security engines. At the time of analysis, the scan result showed 0 detections, which means that there were no confirmed malicious activities according to the available security providers.
+
+However, attention should be paid to the Community Score section, which contained reports suggesting potentially malicious activity. This information cannot be ignored and requires further verification.
+
+The AbuseIPDB tool was also used to confirm the reputation of the IP address, which classified the specified address as malicious. The analysis showed that the IP address is associated with the digitalocean[.]com domain and is located in the United States.
+
+The POST requests sent to the URL by the threat actor were successful, as indicated by the HTTP 200 response status code. Immediate blocking of the identified IP address is recommended, and the incident should be escalated to the SOC L2 team for further investigation.
 
 ---
 
@@ -68,8 +70,7 @@ The User-Agent was identified as **Mozilla/4.0 (MSIE 6.0 on Windows NT 5.1 with 
 
 
 The source IP address **134[.]209[.]118[.]137** was analyzed using VirusTotal.
-The scan results showed 0 threats detected by all security vendors,
-indicating that no known malicious activity or reputation issues were found at the time of analysis. Only in the Community Score section do we see information about some malicious activity, which we cannot ignore. To be sure, we will check the same IP address using the AbuseIPDB tool. 
+The scan results showed 0 threats detected by all security vendors,indicating that no known malicious activity or reputation issues were found at the time of analysis. Only in the Community Score section do we see information about some malicious activity, which we cannot ignore. To be sure, we will check the same IP address using the AbuseIPDB tool. 
 
 This address originates from the United States.
 
@@ -141,12 +142,12 @@ These artifacts include:
 <p align="center">
 
 
-      | Value                                | Comment                      | Type        |
-      | -----------------------------------  | ---------------------------- | ----------- |
-      | 134[.]209[.]118[.]137                | Source malicious IP Address  | IP Address  |  
-      | hxxps://172.16.17.15/get_user_info/  | IDOR malicious request       | URL Address |
-      | 172[.]16[.]17[.]15                   | Server IP address            | IP Address  |
-      | digitalocean[.]com                   | Threat actor domain          | URL Address | 
+                  | Value                                | Comment                      | Type        |
+                  | -----------------------------------  | ---------------------------- | ----------- |
+                  | 134[.]209[.]118[.]137                | Source malicious IP Address  | IP Address  |  
+                  | hxxps://172.16.17.15/get_user_info/  | IDOR malicious request       | URL Address |
+                  | 172[.]16[.]17[.]15                   | Server IP address            | IP Address  |
+                  | digitalocean[.]com                   | Threat actor domain          | URL Address | 
 </p>
 
 
@@ -161,11 +162,15 @@ The final results after the case was closed:
 
 The Investigations SUMMARY:
 
-On February 28, 2022, at 10:48 p.m., our monitoring system triggered an alert and identified activity consistent with a potential IDOR attack. The requested URL was “hxxps://172.16.17.15/get_user_info/”, originating from the source IP address 134.209.118.137.
+On February 28, 2022, at 10:48 P.M., our monitoring system triggered an alert and identified activity consistent with a potential IDOR attack. The requested URL was “hxxps://172.16.17.15/get_user_info/”, originating from the source IP address 134.209.118.137. 
 
 An IDOR (Insecure Direct Object Reference) attack is a type of security vulnerability in which attackers manipulate application input to gain unauthorized access to resources by directly referencing objects such as files, database records, or user information.
 
-We conducted a reputation check on the suspicious IP address 134.209.118.137. VirusTotal did not return any specific intelligence related to this IP address; however, AbuseIPDB has classified it as malicious. The IP address is associated with the domain digitalocean[.]com and is geolocated in the United States.
+An analysis of the reputation of the suspicious IP address 134.209.118.137 using the VirusTotal tool did not reveal any active detections by security engines. At the time of analysis, the scan result showed 0 detections, which means that there were no confirmed malicious activities according to the available security providers.
+
+However, attention should be paid to the Community Score section, which contained reports suggesting potentially malicious activity. This information cannot be ignored and requires further verification.
+
+The AbuseIPDB tool was also used to confirm the reputation of the IP address, which classified the specified address as malicious. The analysis showed that the IP address is associated with the digitalocean[.]com domain and is located in the United States.
 
 The POST requests sent to the URL by the threat actor were successful, as indicated by the HTTP 200 response status code. Immediate blocking of the identified IP address is recommended, and the incident should be escalated to the SOC L2 team for further investigation.
 
