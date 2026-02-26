@@ -1,7 +1,7 @@
 
 # 📄 Name of the completed project :
 **Incident analysis: Possible IDOR Attack Detected**
-<u>Ważna informacja</u>
+
 ---
 
 ## 📅 Incident Details
