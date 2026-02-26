@@ -5,11 +5,6 @@
 ---
 
 ## 📅 Incident Details
-<p align="center">
-  <img src="../01_Details_about_incident/Incident_Details.png" width="600">
-  <br>
-  <em>Figure 1: Incident_Details</em>
-</p>
 
 - **Event ID**: 119 
 - **Event Time**: Feb, 28, 2022, 10:48 PM 
@@ -65,20 +60,12 @@ If the application does not verify whether the logged-in user can access account
 The alert was generated on **February 28, 2022, at 10:48 P.M.** and was described as an IDOR attack. The incident involved the **WebServer1005** server with the address **172.16.17.15**(Destination IP Address), to which requests were sent from the external IP address **134.209.118.137**(Source IP Address). Multiple consecutive **POST** requests were detected. 
 
 The User-Agent was identified as **Mozilla/4.0 (MSIE 6.0 on Windows NT 5.1 with .NET CLR 1.1.4322)**, which may suggest the use of an automated tool or a non-standard client. The reason for generating the alert was successive requests to the same page. However, the traffic was marked as **Allowed**, which means that the system did not block the suspicious activity.
-
 <p align="center">
-  <img src="../01_Email/Email_Questions.png" width="600">
+  <img src="../01_Details_about_incident/Incident_Details.png" width="600">
   <br>
-  <em>Figure 1: Email Questions Analysis</em>
+  <em>Figure 1: Incident_Details</em>
 </p>
 
-Answers to these questions after conducting the analysis:
-- **When was it sent?** February 7, 2021, at 4:24 A.M  
-- **What is the email's SMTP address?** 172[.]16[.]20[.]3  
-- **What is the sender address?** john@letsdefend[.]io  
-- **What is the recipient address?** susie@letsdefend[.]io  
-- **Is the mail content suspicious?** No, the content isn't suspicious  
-- **Are there any attachments?** No, there are no attachments 
 <p align="center">
   <img src="../01_Email/Email_Security.png" width="600">
   <br>
