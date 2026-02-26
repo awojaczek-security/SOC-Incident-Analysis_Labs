@@ -32,7 +32,7 @@ The following tools were used in this alert:
 - [VirusTotal](https://www.virustotal.com/)
 - [AbuseIPDB](https://www.abuseipdb.com/)
 
-## 📸 Photos of Incidents:
+## 📸 Information and photos from the analysis of the Incident:
 
 In our Playbook we have a few question before we starting the analysis. This information about the incoming email should be obtained:
 
