@@ -135,6 +135,7 @@ If the application only checks whether the user is logged in, but does not check
 
 
 After completing the investigation and gathering all relevant evidence, the findings were analyzed, final conclusions were determined, and supporting artifacts were included to document the investigation process.
+
 These artifacts include:
 </p>
 <p align="center">
@@ -146,10 +147,7 @@ These artifacts include:
 | hxxps://172.16.17.15/get_user_info/  | IDOR malicious request       | URL Address |
 | 172[.]16[.]17[.]15                   | Server IP address            | IP Address  |
 | digitalocean[.]com                   | Threat actor domain          | URL Address | 
-
 </p>
-
-
 
 
 The final results after the case was closed:
@@ -159,6 +157,7 @@ The final results after the case was closed:
   <br>
   <em>Figure 7: Results_of_my_research</em>
 </p>
+
 
 The Investigations SUMMARY:
 
