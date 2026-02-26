@@ -58,7 +58,7 @@ The security system blocked the download, preventing execution on the endpoint. 
   <em>Figure 1: Incident_Details</em>
 </p>
 
-The file INVOICE PACKAGE LINK TO DOWNLOAD.docm was identified as malicious by antivirus engines, indicating a high probability that it poses a real threat. It is a Microsoft Word macro-enabled document with a size of 16.66 KB. The analysis revealed the presence of a macro named AutoOpen in the NewMacros.bas module, which executes automatically when the document is opened. The macro uses the Shell function to run a PowerShell command intended to download an additional file from a specified URL. The downloaded file may then be executed, enabling arbitrary code execution on the victim’s system.
+The file **INVOICE PACKAGE LINK TO DOWNLOAD.docm** was identified as malicious by antivirus engines, indicating a high probability that it poses a real threat. It is a Microsoft Word macro-enabled document with a size of 16.66 KB. The analysis revealed the presence of a macro named AutoOpen in the NewMacros.bas module, which executes automatically when the document is opened. The macro uses the Shell function to run a **PowerShell** command intended to download an additional file from a specified URL. The downloaded file may then be executed, enabling arbitrary code execution on the victim’s system.
 
 <p align="center">
   <img src="../02_Tools_VT_&_Hybrid_Analysis/VirusTotal.png" width="600">
@@ -68,7 +68,7 @@ The file INVOICE PACKAGE LINK TO DOWNLOAD.docm was identified as malicious by an
 Additionally, we verify this information in the AbuseIPDB database.
 The AbuseIPDB website generated a report on the specified IP address **134[.]209[.]118[.]137**. This address was found in the database and has been reported **1,536 times**, with a “Confidence of Abuse” rating of 0%. Technical details are visible, such as the service provider (**DigitalOcean, LLC**), type of use (**Data Center/Web Hosting/Transit**), and the domain digitalocean.com. 
 
-Server location: **United States, North Bergen, New Jersey**.
+
 
 The “IP Abuse Reports” section contains information on the number of reports from 312 different sources. The table shows sample reports where the comment indicates “SSH-Attack” and its category is “Brute-Force” and “SSH”. After analyzing both sources, it can now be concluded that this address has suspicious intentions.
 
