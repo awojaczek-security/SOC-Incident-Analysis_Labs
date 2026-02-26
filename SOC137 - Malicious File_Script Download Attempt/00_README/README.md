@@ -58,9 +58,8 @@ The security system blocked the download, preventing execution on the endpoint. 
   <em>Figure 1: Incident_Details</em>
 </p>
 
+The file INVOICE PACKAGE LINK TO DOWNLOAD.docm was identified as malicious by antivirus engines, indicating a high probability that it poses a real threat. It is a Microsoft Word macro-enabled document with a size of 16.66 KB. The analysis revealed the presence of a macro named AutoOpen in the NewMacros.bas module, which executes automatically when the document is opened. The macro uses the Shell function to run a PowerShell command intended to download an additional file from a specified URL. The downloaded file may then be executed, enabling arbitrary code execution on the victim’s system.
 
-The source IP address **134[.]209[.]118[.]137** was analyzed using VirusTotal.
-The scan results showed 0 threats detected by all security vendors,indicating that no known malicious activity or reputation issues were found at the time of analysis. Only in the Community Score section do we see information about some malicious activity, which we cannot ignore. To be sure, we will check the same IP address using the AbuseIPDB tool. 
 
 This address originates from the United States.
 
