@@ -136,8 +136,6 @@ If the application only checks whether the user is logged in, but does not check
 
 After completing the investigation and gathering all relevant evidence, the findings were analyzed, final conclusions were determined, and supporting artifacts were included to document the investigation process.
 These artifacts include:
-
-The third example log:
 </p>
 <p align="center">
 
