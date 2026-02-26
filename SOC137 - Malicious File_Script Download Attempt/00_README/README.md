@@ -62,7 +62,7 @@ The security system blocked the download, preventing execution on the endpoint. 
 The file **INVOICE PACKAGE LINK TO DOWNLOAD.docm** was identified as malicious by antivirus engines, indicating a high probability that it poses a real threat. It is a Microsoft Word macro-enabled document with a size of 16.66 KB. The analysis revealed the presence of a macro named AutoOpen in the NewMacros.bas module, which executes automatically when the document is opened. The macro uses the Shell function to run a **PowerShell** command intended to download an additional file from a specified URL. The downloaded file may then be executed, enabling arbitrary code execution on the victim’s system.
 
 <p align="center">
-  <img src="../02_Tools_VT_&_Hybrid_Analysis/VirusTotal.png" width="600">
+  <img src="../02_Tools_VT_&_ANY-RUN/VirusTotal.png" width="600">
   <br>
   <em>Figure 2: VirusTotal Screenshot</em>
 </p>
@@ -72,11 +72,16 @@ The file **INVOICE PACKAGE LINK TO DOWNLOAD.docm** was identified as malicious b
 
 The “IP Abuse Reports” section contains information on the number of reports from 312 different sources. The table shows sample reports where the comment indicates “SSH-Attack” and its category is “Brute-Force” and “SSH”. After analyzing both sources, it can now be concluded that this address has suspicious intentions.
 
-</p>
 <p align="center">
-  <img src="../02_Tools_VT_&_AbuseIPD/AbuseIPDB.png" width="600">
+  <img src="../02_Tools_VT_&_Shell_Commands/Shell_Commands.png" width="600">
   <br>
-  <em>Figure 3: AbuseIPDB Screenshot</em>
+  <em>Figure 3: VirusTotal Screenshot</em>
+</p>
+
+<p align="center">
+  <img src="../03_Macros_Office_Fileg/Macros_Office.png" width="600">
+  <br>
+  <em>Figure 4: Macros in Office File </em>
 </p>
 
 The next step is to verify the log management information.
