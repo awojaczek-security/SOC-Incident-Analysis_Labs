@@ -140,10 +140,6 @@ These artifacts include:
 The third example log:
 </p>
 <p align="center">
-  <img src="../04_Results_of_Investigation/Artifacts_table.png" width="600">
-  <br>
-  <em>Figure 7: Raw_logs_3 - user_id=4</em>
-</p>
 
 
 | Value                                | Comment                      | Type        |
@@ -153,7 +149,7 @@ The third example log:
 | 172[.]16[.]17[.]15                   | Server IP address            | IP Address  |
 | digitalocean[.]com                   | Threat actor domain          | URL Address | 
 
-
+</p>
 
 
 
