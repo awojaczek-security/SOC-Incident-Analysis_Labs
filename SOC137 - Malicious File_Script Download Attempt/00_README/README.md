@@ -47,9 +47,11 @@ To reduce the risk, it is recommended to run macros only from trusted sources. I
 
 ## 📸 Information and photos from the analysis of the Incident:
 
-The alert was generated on **February 28, 2022, at 10:48 P.M.** and was described as an IDOR attack. The incident involved the **WebServer1005** server with the address **172.16.17.15**(Destination IP Address), to which requests were sent from the external IP address **134.209.118.137**(Source IP Address). Multiple consecutive **POST** requests were detected. 
+The alert was generated on **March 14, 2021, at 07:15 PM** and was triggered indicating a malicious file or script download attempt. The activity originated from an internal host and was successfully blocked by the security system. The source IP address was **172.16.17.37**, assigned to the hostname **NicolasPRD**.
 
-The User-Agent was identified as **Mozilla/4.0 (MSIE 6.0 on Windows NT 5.1 with .NET CLR 1.1.4322)**, which may suggest the use of an automated tool or a non-standard client. The reason for generating the alert was successive requests to the same page. However, the traffic was marked as **Allowed**, which means that the system did not block the suspicious activity.
+The file that was likely downloaded was named *INVOICE PACKAGE LINK TO DOWNLOAD.docm*. The size of this file is **16.66 KB**, and its hash is *f2d0c66b801244c059f636d08a474079*. The naming convention indicates a phishing attempt to trick the user into opening the file. Since it was a .docm file, it most likely contained malicious macros.
+
+The security system blocked the download, preventing execution on the endpoint. No confirmed compromise has been identified. However, macro-enabled documents are often used to deliver malware, establish persistence, or enable unauthorized access. 
 <p align="center">
   <img src="../01_Details_about_incident/Incident_Details.png" width="600">
   <br>
