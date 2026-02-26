@@ -132,10 +132,10 @@ These artifacts include:
 
                           | Value                                | Comment                      | Type        |
                           | -----------------------------------  | ---------------------------- | ----------- |
-                          | 134[.]209[.]118[.]137                | Source malicious IP Address  | IP Address  |  
-                          | hxxps://172.16.17.15/get_user_info/  | IDOR malicious request       | URL Address |
-                          | 172[.]16[.]17[.]15                   | Server IP address            | IP Address  |
-                          | digitalocean[.]com                   | Threat actor domain          | URL Address | 
+                          | 178[.]175[.]67[.]109                 | IP Address - MD5             | IP Address  |  
+                          | 188[.]114[.]96[.]3                   | IP Address - DNS             | IP Address  |
+                          | f2d0c66b801244c059f636d08a474079     | Malicious Hash - MD5         | MD5 Hash    |
+                          | 172[.]16[.]17[.]37                   | Source IP Address            | IP Address  | 
 </p>
 
 
