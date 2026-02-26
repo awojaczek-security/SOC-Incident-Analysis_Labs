@@ -189,24 +189,27 @@ This laboratory training gave us the following skills:
 ## 📂 Project Structure
 
 ```bash
-SOC120_Phishing_Mail_Detected/
+SOC169 - Possible-IDOR-Attack-Detected/
 │
 ├── 00_README/
 │   └── README.md
 │
-├── 01_Email/
-│   ├── Email_Questions.png
-│   └── Email_Security.png
+├── 01_Details_about_incident/
+│   └── Incident_Details.png
 │
 ├── 02_Tools_VT_&_AbuseIPDB/
 │   ├── AbuseIPDB.png
 │   └── VirusTotal.png
 │
-├── │03_Logs_Analysis/
-│   └── Logs.png
+├── 03_Logs_Analysis/
+│   ├── Logs.png
+│   ├── Raw_Log_1.png
+│   ├── Raw_Log_2.png
+│   └── Raw_Log_3.png
 │
-├── 04_Analysis of Investigations/
-│   ├── Artifacts.png
+├── 04_Results_of_Investigation/
+│   ├── Artifacts_table.png
 │   └── Results_of_my_research.png
+
 ```
 
