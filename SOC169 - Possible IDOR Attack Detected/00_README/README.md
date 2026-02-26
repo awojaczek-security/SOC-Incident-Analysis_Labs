@@ -45,7 +45,7 @@ The following tools were used in this alert:
 **IDOR** is a security vulnerability where an application provides direct access to an object (e.g., user ID, file) without checking whether the user has the right to access that resource.
 In other words, the application trusts all data provided by the user, which they enter in the URL parameter or HTTP request.
 
-Example:
+<u>Example</u>:
 Let's assume that the application has the following address:
 
 https://exercise.com/account?id=111
