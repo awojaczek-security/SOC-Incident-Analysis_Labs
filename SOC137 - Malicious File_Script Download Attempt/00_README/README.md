@@ -92,6 +92,8 @@ After opening a *.docm* file in a sandbox environment, you can verify its behavi
 
 After detecting malware, the next step is to check endpoints and logs.
 
+Moving to the *Endpoint Security* tab and searching for the host **NicolasPRD**, no records were documented for the period when the alert appeared.
+Furthermore, when verifying network logs and *log management*, no communication with the suspicious IP address was found.
 
 </p>
 <p align="center">
