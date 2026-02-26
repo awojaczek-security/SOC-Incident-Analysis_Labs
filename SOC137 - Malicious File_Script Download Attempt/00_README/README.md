@@ -39,9 +39,9 @@ The following tools were used in this alert:
   
 ## 🔐 Macros in Office files - What is the Macros VBA? - the most important informations
 
-**A macro in Microsoft Office files** is a set of instructions written in VBA (Visual Basic for Applications) that automate repetitive tasks. It streamlines work by automatically formatting documents, processing data, and generating reports. Macros are most commonly found in files with the extensions .docm, .xlsm, and .pptm, which allow code to be stored and executed.
+**A macro in Microsoft Office files** is a set of instructions written in VBA (Visual Basic for Applications) that automate repetitive tasks. It streamlines work by automatically formatting documents, processing data, and generating reports. Macros are most commonly found in files with the extensions *.docm*, *.xlsm*, and *.pptm*, which allow code to be stored and executed.
 
-Despite numerous legitimate business uses, macros can pose a security risk. When used maliciously, they can enable the download and execution of malware. An attacker can also use a macro to steal data or modify the system. For this reason, macros are often used as an attack vector in phishing campaigns.
+Despite numerous legitimate uses, macros can pose a security risk. When used maliciously, they can enable the download and execution of malware. An attacker can also use a macro to steal data or modify the system. For this reason, macros are often used as an attack vector in phishing campaigns.
 
 To reduce the risk, it is recommended to run macros only from trusted sources. In addition, it is recommended to use security mechanisms such as blocking macros from the Internet and monitoring their activity.
 
