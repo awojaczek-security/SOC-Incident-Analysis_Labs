@@ -45,7 +45,7 @@ Despite numerous legitimate uses, macros can pose a security risk. When used mal
 
 To reduce the risk, it is recommended to run macros only from trusted sources. In addition, it is recommended to use security mechanisms such as blocking macros from the Internet and monitoring their activity.
 
-## 📸 Photos of Incidents:
+## 📸 Information and photos from the analysis of the Incident:
 
 The alert was generated on **February 28, 2022, at 10:48 P.M.** and was described as an IDOR attack. The incident involved the **WebServer1005** server with the address **172.16.17.15**(Destination IP Address), to which requests were sent from the external IP address **134.209.118.137**(Source IP Address). Multiple consecutive **POST** requests were detected. 
 
@@ -63,7 +63,7 @@ The scan results showed 0 threats detected by all security vendors,indicating th
 This address originates from the United States.
 
 <p align="center">
-  <img src="../02_Tools_VT_&_AbuseIPD/VirusTotal.png" width="600">
+  <img src="../02_Tools_VT_&_Hybrid_Analysis/Hybrid_Analysis_Overview.png" width="600">
   <br>
   <em>Figure 2: VirusTotal Screenshot</em>
 
