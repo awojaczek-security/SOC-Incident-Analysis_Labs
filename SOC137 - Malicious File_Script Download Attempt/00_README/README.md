@@ -79,7 +79,7 @@ The alias EX stands for *Invoke-Expression*, a function used to execute the pass
 <p align="center">
   <img src="../02_Tools_VT_&_ANY-RUN/Shell_Commands.png" width="600">
   <br>
-  <em>Figure 2: VirusTotal - Shell Commands</em>
+  <em>Figure 3: VirusTotal - Shell Commands</em>
 </p>
 
 After opening a *.docm* file in a sandbox environment, you can verify its behavior and check whether it contains malicious macros. Additionally, tools such as oletools can be used to perform static analysis of the document, including detection of macros, suspicious functions, and code obfuscation techniques. This allows you to confirm whether the file contains obfuscated or potentially malicious code before it is executed.
