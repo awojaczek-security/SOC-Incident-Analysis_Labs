@@ -36,6 +36,7 @@ The following tools were used in this alert:
 
 - [VirusTotal](https://www.virustotal.com/)
 - [Hybrid-Analysis](https://hybrid-analysis.com/)
+- [ANY-RUN](https://any.run/)
   
 ## 🔐 Macros in Office files - What is the Macros VBA? - the most important informations
 
@@ -65,8 +66,7 @@ The file **INVOICE PACKAGE LINK TO DOWNLOAD.docm** was identified as malicious b
   <br>
   <em>Figure 2: VirusTotal Screenshot</em>
 </p>
-Additionally, we verify this information in the AbuseIPDB database.
-The AbuseIPDB website generated a report on the specified IP address **134[.]209[.]118[.]137**. This address was found in the database and has been reported **1,536 times**, with a “Confidence of Abuse” rating of 0%. Technical details are visible, such as the service provider (**DigitalOcean, LLC**), type of use (**Data Center/Web Hosting/Transit**), and the domain digitalocean.com. 
+
 
 
 
