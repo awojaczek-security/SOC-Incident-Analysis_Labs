@@ -141,12 +141,12 @@ These artifacts include:
 <p align="center">
 
 
-| Value                                | Comment                      | Type        |
-| -----------------------------------  | ---------------------------- | ----------- |
-| 134[.]209[.]118[.]137                | Source malicious IP Address  | IP Address  |  
-| hxxps://172.16.17.15/get_user_info/  | IDOR malicious request       | URL Address |
-| 172[.]16[.]17[.]15                   | Server IP address            | IP Address  |
-| digitalocean[.]com                   | Threat actor domain          | URL Address | 
+      | Value                                | Comment                      | Type        |
+      | -----------------------------------  | ---------------------------- | ----------- |
+      | 134[.]209[.]118[.]137                | Source malicious IP Address  | IP Address  |  
+      | hxxps://172.16.17.15/get_user_info/  | IDOR malicious request       | URL Address |
+      | 172[.]16[.]17[.]15                   | Server IP address            | IP Address  |
+      | digitalocean[.]com                   | Threat actor domain          | URL Address | 
 </p>
 
 
@@ -155,7 +155,7 @@ The final results after the case was closed:
 <p align="center">
   <img src="../04_Results_of_Investigation/Results_of_my_research.png" width="600">
   <br>
-  <em>Figure 7: Results_of_my_research</em>
+  <em>Figure 8: Results_of_my_research</em>
 </p>
 
 
