@@ -127,6 +127,13 @@ The third example log:
   <em>Figure 7: Raw_logs_3 - user_id=4</em>
 </p>
 
+The attacker sent several requests with different values for the user_id=x parameter.
+
+IDOR (Insecure Direct Object Reference) occurs when an application provides a direct reference to a resource (e.g., user_id, order_id, file_id) and does not verify whether the currently logged-in user has access rights to the specified object.
+
+If the application only checks whether the user is logged in, but does not check whether the resource belongs to them, the attacker can modify the parameter in the request and gain access to another user's data, which was most likely the case with this alert.
+
+
 Below is an example of several logs for different user IDs.
 After completing the investigation and gathering all relevant evidence, the findings were analyzed, final conclusions were determined, and supporting artifacts were included to document the investigation process.
 These artifacts include:
