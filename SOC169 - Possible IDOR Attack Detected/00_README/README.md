@@ -76,7 +76,7 @@ This address originates from the United States.
 <p align="center">
   <img src="../02_Tools_VT_&_AbuseIPD/VirusTotal.png" width="600">
   <br>
-  <em>Figure 3: VirusTotal Screenshot</em>
+  <em>Figure 2: VirusTotal Screenshot</em>
 
 Additionally, we verify this information in the AbuseIPDB database.
 The AbuseIPDB website generated a report on the specified IP address **134[.]209[.]118[.]137**. This address was found in the database and has been reported **1,536 times**, with a “Confidence of Abuse” rating of 0%. Technical details are visible, such as the service provider (**DigitalOcean, LLC**), type of use (**Data Center/Web Hosting/Transit**), and the domain digitalocean.com. 
@@ -89,7 +89,7 @@ The “IP Abuse Reports” section contains information on the number of reports
 <p align="center">
   <img src="../02_Tools_VT_&_AbuseIPD/AbuseIPDB.png" width="600">
   <br>
-  <em>Figure 4: AbuseIPDB Screenshot</em>
+  <em>Figure 3: AbuseIPDB Screenshot</em>
 </p>
 
 The next step is to verify the log management information.
@@ -99,15 +99,34 @@ Five entries were found, and their dates and times are very close to the data co
 <p align="center">
   <img src="../03_Logs_Analysis/Logs.png" width="600">
   <br>
-  <em>Figure 5: Log Management</em>
+  <em>Figure 4: Log Management</em>
 </p>
-The logs show that the attacker sent **POST** requests to five different user_ids in a short period of time. The status of each request is **200**, which at first glance may indicate that the attack was successful. 
+The logs show that the attacker sent POST requests to five different user_ids in a short period of time. The status of each request is 200, which at first glance may indicate that the attack was successful. 
+
+The first example log:
 </p>
 <p align="center">
-  <img src="../03_Logs_Analysis/Raw_Logs_1.png" width="600">
+  <img src="../03_Logs_Analysis/Raw_Log_1.png" width="600">
   <br>
-  <em>Figure 5: Raw_logs_1</em>
+  <em>Figure 5: Raw_logs_1 - user_id=2</em>
 </p>
+
+The second example log:
+</p>
+<p align="center">
+  <img src="../03_Logs_Analysis/Raw_Log_2.png" width="600">
+  <br>
+  <em>Figure 6: Raw_logs_2 - user_id=2</em>
+</p>
+
+The third example log:
+</p>
+<p align="center">
+  <img src="../03_Logs_Analysis/Raw_Log_3.png" width="600">
+  <br>
+  <em>Figure 7: Raw_logs_3 - user_id=2</em>
+</p>
+
 Below is an example of several logs for different user IDs.
 After completing the investigation and gathering all relevant evidence, the findings were analyzed, final conclusions were determined, and supporting artifacts were included to document the investigation process.
 These artifacts include:
