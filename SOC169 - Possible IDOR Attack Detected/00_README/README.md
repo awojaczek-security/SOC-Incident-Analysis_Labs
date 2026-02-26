@@ -133,7 +133,8 @@ Such incidents should never be underestimated and require consistent, detailed a
 Every alert must be properly validated, even if it initially appears insignificant. As SOC analysts, we must remain vigilant and approach each investigation in a structured manner.
 
 This laboratory training gave us the following skills:
-- it strengthened our skills in using online tools such as AbusedIPDB and VirusTotal.
+- it strengthened our skills in using online tools such as AbusedIPDB, VirusTotal an MalwareURL.
+- learning a new attack method - IDOR and how to detect and eliminate it
 - detecting threats
 - gathering information about threats
 - documenting incident response
