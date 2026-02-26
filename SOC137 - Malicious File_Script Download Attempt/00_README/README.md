@@ -75,7 +75,7 @@ The “IP Abuse Reports” section contains information on the number of reports
 <p align="center">
   <img src="../02_Tools_VT_&_ANY-RUN/Shell_Commands.png" width="600">
   <br>
-  <em>Figure 2: VirusTotal Screenshot</em>
+  <em>Figure 2: VirusTotal - Shell Commands</em>
 </p>
 
 <p align="center">
