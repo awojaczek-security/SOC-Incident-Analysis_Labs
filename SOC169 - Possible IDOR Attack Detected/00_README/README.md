@@ -94,9 +94,6 @@ The “IP Abuse Reports” section contains information on the number of reports
 
 The next step is to verify the log management information.
 Five entries were found, and their dates and times are very close to the data contained in the alert.
-The logs show that the attacker sent **POST** requests to five different user_ids in a short period of time. The status of each request is **200**, which at first glance may indicate that the attack was successful. 
-
-Below is an example of several logs for different user IDs.
 
 </p>
 <p align="center">
@@ -104,7 +101,14 @@ Below is an example of several logs for different user IDs.
   <br>
   <em>Figure 5: Log Management</em>
 </p>
-
+The logs show that the attacker sent **POST** requests to five different user_ids in a short period of time. The status of each request is **200**, which at first glance may indicate that the attack was successful. 
+</p>
+<p align="center">
+  <img src="../03_Logs_Analysis/Raw_Logs_1.png" width="600">
+  <br>
+  <em>Figure 5: Raw_logs_1</em>
+</p>
+Below is an example of several logs for different user IDs.
 After completing the investigation and gathering all relevant evidence, the findings were analyzed, final conclusions were determined, and supporting artifacts were included to document the investigation process.
 These artifacts include:
 </p>
