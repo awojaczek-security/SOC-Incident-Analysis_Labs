@@ -161,16 +161,23 @@ The final results after the case was closed:
 
 The Investigations SUMMARY:
 
-On February 7, 2021, at 4:24 A.M., our system sent an alert regarding an internal email sent from “john@letsdefend.io” to “susie@letsdefend.io.” This message contained information about a meeting. The message read: “Hi Susie, can we schedule a meeting today if you have time?” Both emails had the domain “letsdefend[.]io.”
-Based on the completed investigation and the collected evidence, the alert has been classified as a false positive.
+On February 28, 2022, at 10:48 p.m., our monitoring system triggered an alert and identified activity consistent with a potential IDOR attack. The requested URL was “hxxps://172.16.17.15/get_user_info/”, originating from the source IP address 134.209.118.137.
+
+An IDOR (Insecure Direct Object Reference) attack is a type of security vulnerability in which attackers manipulate application input to gain unauthorized access to resources by directly referencing objects such as files, database records, or user information.
+
+We conducted a reputation check on the suspicious IP address 134.209.118.137. VirusTotal did not return any specific intelligence related to this IP address; however, AbuseIPDB has classified it as malicious. The IP address is associated with the domain digitalocean[.]com and is geolocated in the United States.
+
+The POST requests sent to the URL by the threat actor were successful, as indicated by the HTTP 200 response status code. Immediate blocking of the identified IP address is recommended, and the incident should be escalated to the SOC L2 team for further investigation.
 
 ## 🔥 Lessons Learned
 
-Although the alert was ultimately classified as a false positive, it provided valuable insight into handling events that commonly occur in a SOC environment.
+After completing the investigation, the alert has been confirmed as a True Positive. 
 
-Such incidents should never be underestimated and require consistent, detailed analysis, as they may contain hidden malicious artifacts.
+The findings enhanced our understanding of IDOR attack patterns and helped validate the effectiveness of our detection and response procedures.
 
-Every alert must be properly validated, even if it initially appears insignificant. As SOC analysts, we must remain vigilant and approach each investigation in a structured manner.
+Such incidents should never be ignored and require consistent, detailed analysis, as they may contain a variety of artifacts.
+
+Every alert must be properly verified. As SOC analysts, we must remain vigilant and approach each investigation in an orderly and methodical manner.
 
 This laboratory training gave us the following skills:
 - it strengthened our skills in using online tools such as AbusedIPDB, VirusTotal an MalwareURL.
