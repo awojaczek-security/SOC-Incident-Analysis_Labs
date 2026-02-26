@@ -1,12 +1,12 @@
 
 # 📄 Name of the completed project :
-**Incident analysis: Phishing Mail Detected – Internal to Internal**
+**Incident analysis: SOC169 - Possible IDOR Attack Detected**
 
 ---
 
 ## 📅 Incident Details
 
-- **Event ID**: 52  
+- **Event ID**: 11  
 - **Event Time**: Feb, 07, 2021, 04:24 AM 
 - **Detection Rule**: SOC120 - Phishing Mail Detected - Internal to Internal
 - **Alert Level**: Security Analyst  
