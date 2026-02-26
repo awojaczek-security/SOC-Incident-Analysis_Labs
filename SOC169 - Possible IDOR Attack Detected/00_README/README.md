@@ -142,12 +142,12 @@ These artifacts include:
 <p align="center">
 
 
-                  | Value                                | Comment                      | Type        |
-                  | -----------------------------------  | ---------------------------- | ----------- |
-                  | 134[.]209[.]118[.]137                | Source malicious IP Address  | IP Address  |  
-                  | hxxps://172.16.17.15/get_user_info/  | IDOR malicious request       | URL Address |
-                  | 172[.]16[.]17[.]15                   | Server IP address            | IP Address  |
-                  | digitalocean[.]com                   | Threat actor domain          | URL Address | 
+                          | Value                                | Comment                      | Type        |
+                          | -----------------------------------  | ---------------------------- | ----------- |
+                          | 134[.]209[.]118[.]137                | Source malicious IP Address  | IP Address  |  
+                          | hxxps://172.16.17.15/get_user_info/  | IDOR malicious request       | URL Address |
+                          | 172[.]16[.]17[.]15                   | Server IP address            | IP Address  |
+                          | digitalocean[.]com                   | Threat actor domain          | URL Address | 
 </p>
 
 
