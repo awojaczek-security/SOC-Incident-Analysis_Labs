@@ -138,7 +138,12 @@ After completing the investigation and gathering all relevant evidence, the find
 These artifacts include:
 
 The third example log:
-
+</p>
+<p align="center">
+  <img src="../04_Results_of_Investigation/Artifacts_table.png" width="600">
+  <br>
+  <em>Figure 7: Raw_logs_3 - user_id=4</em>
+</p>
 
 
 | Value                                | Comment                      | Type        |
