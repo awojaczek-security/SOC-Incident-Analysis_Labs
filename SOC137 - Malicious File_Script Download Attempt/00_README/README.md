@@ -154,20 +154,25 @@ The final results after the case was closed:
 
 ## 🔥 Lessons Learned
 
-After completing the investigation, the alert has been confirmed as a True Positive. 
+After completing the investigation, the alert was confirmed as a True Positive. The analyzed Office document contained malicious VBA macros that were intentionally obfuscated. Their purpose was to execute commands and potentially download or run additional payloads once the user enabled macros.
 
-The findings enhanced our understanding of IDOR attack patterns and helped validate the effectiveness of our detection and response procedures.
+We used VirusTotal and Hybrid Analysis to verify the file. These platforms helped us confirm malicious indicators, observe the file’s behavior in a sandbox environment, and compare the results with known threat intelligence. This gave us higher confidence in our final assessment and showed how important it is to use multiple sources during analysis.
 
-Such incidents should never be ignored and require consistent, detailed analysis, as they may contain a variety of artifacts.
+**What can be learned from analyzing malicious files containing macros**:
 
-Every alert must be properly verified. As SOC analysts, we must remain vigilant and approach each investigation in an orderly and methodical manner.
+- Checking the hash in tools such as VirusTotal allows for immediate correlation with a  database.
 
-This laboratory training gave us the following skills:
-- it strengthened our skills in using online tools such as VirusTotal and Hybrid-Analysis
-- learning a new attack method - Macros VBA
-- detecting threats
-- gathering information about threats
-- documenting incident response
+- The presence of macros in an Office document significantly increases the risk level and requires thorough checking of the VBA code.
+
+- Macros are often obfuscated to hide their true purpose.
+
+- Malicious macros can be used to download additional payloads, execute system commands, or establish network connections.
+
+- Sandbox analysis (e.g., Hybrid Analysis) helps to see the actual behavior of the file after it is launched.
+
+- Correlating the hash, static (VBA) and dynamic (sandbox) analyses gives a more complete picture of the threat.
+
+- Hash verification is a quick first step, but it does not replace a full security analysis.
 
 ## 📂 Project Structure
 
