@@ -9,7 +9,7 @@
 - **Event ID**: 76 
 - **Event Time**: Mar, 14, 2021, 07:15 PM 
 - **Detection Rule**: SOC137 - Malicious File/Script Download Attempt
-- **Level**: Security Analyst
+- **Alert Level**: Security Analyst
 - **File Name**: INVOICE PACKAGE LINK TO DOWNLOAD.docm
 - **Type**: Web Attack
 - **File Hash**: f2d0c66b801244c059f636d08a474079
@@ -35,8 +35,7 @@ The POST requests sent to the URL by the threat actor were successful, as indica
 The following tools were used in this alert:
 
 - [VirusTotal](https://www.virustotal.com/)
-- [AbuseIPDB](https://www.abuseipdb.com/)
-- [MalwareURL](https://www.malwareurl.com/listing-urls.php)
+- [Hybrid-Analysis](https://hybrid-analysis.com/)
   
 ## 🔐 IDOR (Insecure Direct Object Reference) - What is the IDOR? - the most important informations
 
