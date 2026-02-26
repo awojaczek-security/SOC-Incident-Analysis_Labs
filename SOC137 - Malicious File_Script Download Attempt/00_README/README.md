@@ -60,9 +60,6 @@ The security system blocked the download, preventing execution on the endpoint. 
 
 The file INVOICE PACKAGE LINK TO DOWNLOAD.docm was identified as malicious by antivirus engines, indicating a high probability that it poses a real threat. It is a Microsoft Word macro-enabled document with a size of 16.66 KB. The analysis revealed the presence of a macro named AutoOpen in the NewMacros.bas module, which executes automatically when the document is opened. The macro uses the Shell function to run a PowerShell command intended to download an additional file from a specified URL. The downloaded file may then be executed, enabling arbitrary code execution on the victim’s system.
 
-
-This address originates from the United States.
-
 <p align="center">
   <img src="../02_Tools_VT_&_Hybrid_Analysis/VirusTotal.png" width="600">
   <br>
