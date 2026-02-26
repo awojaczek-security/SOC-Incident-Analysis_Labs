@@ -11,11 +11,12 @@
   <em>Figure 1: Incident_Details</em>
 </p>
 
-- **Event ID**: 11  
-- **Event Time**: Feb, 07, 2021, 04:24 AM 
-- **Detection Rule**: SOC120 - Phishing Mail Detected - Internal to Internal
+- **Event ID**: 119 
+- **Event Time**: Feb, 28, 2022, 10:48 PM 
+- **Detection Rule**: SOC169 - Possible IDOR Attack Detected
 - **Alert Level**: Security Analyst  
-- **Type**: Exchange
+- **Type**: Web Attack
+- **Requested URL**: https://172.16.17.15/get_user_info/
 - **Device Action**: Allowed
 ---
 
