@@ -142,7 +142,7 @@ These artifacts include:
 The final results after the case was closed:
 </p>
 <p align="center">
-  <img src="../04_Results_of_Investigation/Results_of_my_research.png" width="600">
+  <img src="../05_Results_of_Investigation/Results_of_my_research.png" width="600">
   <br>
   <em>Figure 8: Results_of_my_research</em>
 </p>
