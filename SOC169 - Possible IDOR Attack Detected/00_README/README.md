@@ -16,7 +16,7 @@
 - **Detection Rule**: SOC169 - Possible IDOR Attack Detected
 - **Alert Level**: Security Analyst  
 - **Type**: Web Attack
-- **Requested URL**: https://172.16.17.15/get_user_info/
+- **Requested URL**: https[:]//172[.]16[.]17[.]15/get_user_info/
 - **Device Action**: Allowed
 ---
 
