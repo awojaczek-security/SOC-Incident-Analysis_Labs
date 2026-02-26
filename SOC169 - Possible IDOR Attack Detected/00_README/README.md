@@ -92,9 +92,11 @@ The “IP Abuse Reports” section contains information on the number of reports
   <em>Figure 4: AbuseIPDB Screenshot</em>
 </p>
 
-The next step is to verify the information regarding log management.
-The logs are very extensive, but this is due to the fact that they are logs from the mail server.
-The logs corresponding to the date of the alert provide detailed information regarding the event detected by the security monitoring system.
+The next step is to verify the log management information.
+Five entries were found, and their dates and times are very close to the data contained in the alert.
+The logs show that the attacker sent **POST** requests to five different user_ids in a short period of time. The status of each request is **200**, which at first glance may indicate that the attack was successful. 
+
+Below is an example of several logs for different user IDs.
 
 </p>
 <p align="center">
