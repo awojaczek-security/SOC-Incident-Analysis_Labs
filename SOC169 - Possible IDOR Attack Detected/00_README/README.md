@@ -66,15 +66,12 @@ The User-Agent was identified as **Mozilla/4.0 (MSIE 6.0 on Windows NT 5.1 with 
   <em>Figure 1: Incident_Details</em>
 </p>
 
-<p align="center">
-  <img src="../01_Email/Email_Security.png" width="600">
-  <br>
-  <em>Figure 2: Email Message</em>
-</p>
 
-The IP address 172[.]16[.]20[.]3 was analyzed using VirusTotal. 
-The scan results showed 0 detections across all security vendors, 
-indicating no known malicious activity or reputation concerns at the time of analysis.
+The source IP address **134[.]209[.]118[.]137** was analyzed using VirusTotal.
+The scan results showed 0 threats detected by all security vendors,
+indicating that no known malicious activity or reputation issues were found at the time of analysis. Only in the Community Score section do we see information about some malicious activity, which we cannot ignore. To be sure, we will check the same IP address using the AbuseIPDB tool. 
+
+This address originates from the United States.
 
 <p align="center">
   <img src="../02_Tools_VT_&_AbuseIPD/VirusTotal.png" width="600">
@@ -82,7 +79,11 @@ indicating no known malicious activity or reputation concerns at the time of ana
   <em>Figure 3: VirusTotal Screenshot</em>
 
 Additionally, we verify this information in the AbuseIPDB database.
-In this case, no suspicious traces were found either.
+The AbuseIPDB website generated a report on the specified IP address **134[.]209[.]118[.]137**. This address was found in the database and has been reported **1,536 times**, with a “Confidence of Abuse” rating of 0%. Technical details are visible, such as the service provider (**DigitalOcean, LLC**), type of use (**Data Center/Web Hosting/Transit**), and the domain digitalocean.com. 
+
+Server location: **United States, North Bergen, New Jersey**.
+
+The “IP Abuse Reports” section contains information on the number of reports from 312 different sources. The table shows sample reports where the comment indicates “SSH-Attack” and its category is “Brute-Force” and “SSH”. After analyzing both sources, it can now be concluded that this address has suspicious intentions.
 
 </p>
 <p align="center">
