@@ -134,15 +134,23 @@ IDOR (Insecure Direct Object Reference) occurs when an application provides a di
 If the application only checks whether the user is logged in, but does not check whether the resource belongs to them, the attacker can modify the parameter in the request and gain access to another user's data, which was most likely the case with this alert.
 
 
-Below is an example of several logs for different user IDs.
 After completing the investigation and gathering all relevant evidence, the findings were analyzed, final conclusions were determined, and supporting artifacts were included to document the investigation process.
 These artifacts include:
+
+The third example log:
 </p>
 <p align="center">
-  <img src="../04_Results_of_Investigations/Artifacts.png" width="600">
+  <img src="| Value                      | Comment                   | Type        |
+| -------------------------- | ------------------------- | ----------- |
+| 134[.]209[.]118[.]137      | Threat actor              | IP Address  |
+| hxxps://172.16.17.15/g     | IDOR malicious request    | URL Address |
+| 172[.]16[.]17[.]15         | Server IP address         | IP Address  |
+| digitalocean[.]com         | Threat actor domain       | URL Address | width="600">
   <br>
-  <em>Figure 6: Artifacts</em>
+
 </p>
+
+
 
 The final results after the case was closed:
 </p>
