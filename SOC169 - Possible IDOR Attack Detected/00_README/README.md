@@ -38,7 +38,8 @@ The following tools were used in this alert:
 
 - [VirusTotal](https://www.virustotal.com/)
 - [AbuseIPDB](https://www.abuseipdb.com/)
-
+- [MalwareURL]([https://www.abuseipdb.com/](https://www.malwareurl.com/listing-urls.php)
+  
 ## 🔐 IDOR (Insecure Direct Object Reference) - What is the IDOR? - the most important informations
 
 **IDOR** is a security vulnerability where an application provides direct access to an object (e.g., user ID, file) without checking whether the user has the right to access that resource.
