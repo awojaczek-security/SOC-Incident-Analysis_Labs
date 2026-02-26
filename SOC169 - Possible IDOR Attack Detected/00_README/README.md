@@ -160,7 +160,7 @@ The final results after the case was closed:
 </p>
 
 
-The Investigations **SUMMARY**:
+**The Summary of the investigation**:
 
 On February 28, 2022, at 10:48 P.M., our monitoring system generated an alert indicating activity consistent with a suspected IDOR attack. The request was made to the URL “hxxps://172.16.17.15/get_user_info/” and originated from the IP address 134.209.118.137.
 
