@@ -37,25 +37,9 @@ The following tools were used in this alert:
 - [VirusTotal](https://www.virustotal.com/)
 - [Hybrid-Analysis](https://hybrid-analysis.com/)
   
-## 🔐 IDOR (Insecure Direct Object Reference) - What is the IDOR? - the most important informations
+## 🔐 Macros - What is the Macros VBA? - the most important informations
 
-**IDOR** is a security vulnerability where an application provides direct access to an object (e.g., user ID, file) without checking whether the user has the right to access that resource.
-In other words, the application trusts all data provided by the user, which they enter in the URL parameter or HTTP request.
-
-<u>Example</u>:
-Let's assume that the application has the following address:
-
-https://exercise.com/account?id=111
-
-id=111 - user account
-
-The user is logged in as ID 111.
-
-The attacker changes the parameter in the URL to:
-
-https://exercise.com/account?id=112
-
-If the application does not verify whether the logged-in user can access account 112, but only retrieves data from the database by ID alone, the attacker will gain access to someone else's data, which should never happen. This results in unauthorized access to another user's data, which constitutes a breach of access control.
+**Macros VBA** 
 
 ## 📸 Photos of Incidents:
 
