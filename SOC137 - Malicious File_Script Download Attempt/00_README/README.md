@@ -66,7 +66,7 @@ This address originates from the United States.
   <img src="../02_Tools_VT_&_Hybrid_Analysis/Hybrid_Analysis_Overview.png" width="600">
   <br>
   <em>Figure 2: VirusTotal Screenshot</em>
-
+</p>
 Additionally, we verify this information in the AbuseIPDB database.
 The AbuseIPDB website generated a report on the specified IP address **134[.]209[.]118[.]137**. This address was found in the database and has been reported **1,536 times**, with a “Confidence of Abuse” rating of 0%. Technical details are visible, such as the service provider (**DigitalOcean, LLC**), type of use (**Data Center/Web Hosting/Transit**), and the domain digitalocean.com. 
 
