@@ -37,9 +37,13 @@ The following tools were used in this alert:
 - [VirusTotal](https://www.virustotal.com/)
 - [Hybrid-Analysis](https://hybrid-analysis.com/)
   
-## 🔐 Macros - What is the Macros VBA? - the most important informations
+## 🔐 Macros in Office files - What is the Macros VBA? - the most important informations
 
-**Macros VBA** 
+**A macro in Microsoft Office files** is a set of instructions written in VBA that automate repetitive tasks. It streamlines work by automatically formatting documents, processing data, and generating reports. Macros are most commonly found in files with the extensions .docm, .xlsm, and .pptm, which allow code to be stored and executed.
+
+Despite numerous legitimate business uses, macros can pose a security risk. When used maliciously, they can enable the download and execution of malware. An attacker can also use a macro to steal data or modify the system. For this reason, macros are often used as an attack vector in phishing campaigns.
+
+To reduce the risk, it is recommended to run macros only from trusted sources. In addition, it is recommended to use security mechanisms such as blocking macros from the Internet and monitoring their activity.
 
 ## 📸 Photos of Incidents:
 
@@ -146,17 +150,7 @@ The final results after the case was closed:
 
 **The Summary of the investigation**:
 
-On February 28, 2022, at 10:48 P.M., our monitoring system generated an alert indicating activity consistent with a suspected IDOR attack. The request was made to the URL “hxxps://172.16.17.15/get_user_info/” and originated from the IP address 134.209.118.137.
 
-An Insecure Direct Object Reference (IDOR) vulnerability allows attackers to manipulate application parameters in order to access unauthorized resources directly, such as files, database records, or user-related data.
-
-A reputation assessment of the suspicious IP address 134.209.118.137 was conducted using VirusTotal. At the time of the review, no security vendors reported detections, and the scan result indicated zero flagged threats, suggesting no confirmed malicious classification by automated engines.
-
-Nevertheless, the Community Score section included user reports indicating possible malicious behavior. These findings warrant additional scrutiny and should not be disregarded.
-
-To further validate the reputation of the IP address, AbuseIPDB was consulted. This platform classified the address as malicious. Additional analysis revealed that the IP is linked to the domain digitalocean[.]com and is geolocated in the United States.
-
-The POST requests issued to the targeted endpoint were processed successfully, as confirmed by the HTTP 200 status code returned by the server. It is recommended that the identified IP address be blocked without delay and that the incident be escalated to the SOC L2 team for comprehensive investigation.
 
 ## 🔥 Lessons Learned
 
@@ -169,8 +163,8 @@ Such incidents should never be ignored and require consistent, detailed analysis
 Every alert must be properly verified. As SOC analysts, we must remain vigilant and approach each investigation in an orderly and methodical manner.
 
 This laboratory training gave us the following skills:
-- it strengthened our skills in using online tools such as AbusedIPDB, VirusTotal an MalwareURL.
-- learning a new attack method - IDOR and how to detect and eliminate it
+- it strengthened our skills in using online tools such as VirusTotal and Hybrid-Analysis
+- learning a new attack method - Macros VBA
 - detecting threats
 - gathering information about threats
 - documenting incident response
