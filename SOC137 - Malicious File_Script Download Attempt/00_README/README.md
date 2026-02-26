@@ -63,7 +63,7 @@ The scan results showed 0 threats detected by all security vendors,indicating th
 This address originates from the United States.
 
 <p align="center">
-  <img src="../02_Tools_VT_&_Hybrid_Analysis/Hybrid_Analysis_Overview.png" width="600">
+  <img src="../02_Tools_VT_&_Hybrid_Analysis/VirusTotal.png" width="600">
   <br>
   <em>Figure 2: VirusTotal Screenshot</em>
 </p>
