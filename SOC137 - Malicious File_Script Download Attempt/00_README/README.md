@@ -90,8 +90,8 @@ After opening a *.docm* file in a sandbox environment, you can verify its behavi
   <em>Figure 4: Macros in Office File </em>
 </p>
 
-The next step is to verify the log management information.
-Five entries were found, and their dates and times are very close to the data contained in the alert.
+After detecting malware, the next step is to check endpoints and logs.
+
 
 </p>
 <p align="center">
