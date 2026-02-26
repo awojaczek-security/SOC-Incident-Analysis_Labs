@@ -138,17 +138,18 @@ After completing the investigation and gathering all relevant evidence, the find
 These artifacts include:
 
 The third example log:
-</p>
-<p align="center">
-| Value                                | Comment                       | Type        |
-| ------------------------------------ | ----------------------------- | ----------- |
-| 134[.]209[.]118[.]137                | Source malicious IP Address   | IP Address  |
-| hxxps://172.16.17.15/get_user_info/  | IDOR malicious request        | URL Address |
-| 172[.]16[.]17[.]15                   | Server IP address             | IP Address  |
-| digitalocean[.]com                   | Threat actor domain           | URL Address | 
-  <br>
 
-</p>
+
+<div align="center">
+| Value                                | Comment                       | Type        |
+| ----------------------------------:  | ---------------------------: | -----------: |
+| 134[.]209[.]118[.]137                | Source malicious IP Address  | IP Address   |  
+| hxxps://172.16.17.15/get_user_info/  | IDOR malicious request       | URL Address  |
+| 172[.]16[.]17[.]15                   | Server IP address            | IP Address   |
+| digitalocean[.]com                   | Threat actor domain          | URL Address  | 
+  </div>
+
+
 
 
 
