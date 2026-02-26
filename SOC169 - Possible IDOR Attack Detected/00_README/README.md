@@ -38,7 +38,7 @@ The following tools were used in this alert:
 
 - [VirusTotal](https://www.virustotal.com/)
 - [AbuseIPDB](https://www.abuseipdb.com/)
-- [MalwareURL]([(https://www.malwareurl.com/listing-urls.php])
+- [MalwareURL](https://www.malwareurl.com/listing-urls.php)
   
 ## 🔐 IDOR (Insecure Direct Object Reference) - What is the IDOR? - the most important informations
 
