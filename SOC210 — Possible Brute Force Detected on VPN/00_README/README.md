@@ -45,7 +45,7 @@ The purpose of such an attack may be to:
 
 - increase privileges in the environment,
 
-- prepare for subsequent stages of the attack (e.g., *deploying malware* or *launching ransomware*8).
+- prepare for subsequent stages of the attack (e.g., *deploying malware* or *launching ransomware*).
 
 Common indicators in logs (**IoC - Indicators of Compromise**)
 
