@@ -134,7 +134,7 @@ The final results after the case was closed:
 <p align="center">
   <img src="../05_Results_of_Investigation/Results_of_my_research.png" width="600">
   <br>
-  <em>Figure 8: Results_of_my_research</em>
+  <em>Figure 6: Results_of_my_research</em>
 </p>
 
 
@@ -176,15 +176,14 @@ SOC137 - Malicious File_Script Download Attempt/
 │   └── Incident_Details.png
 │
 ├── 02_Tools_VT_&_ANY-RUN/
-│   ├── MITRE ATT&CK.png
 │   ├── Shell_Commands.png
 │   └── VirusTotal.png
 │
 ├── 03_Macros_Office_File/
 │   └── Macros_Office.png
 │
-├── 04_Logs_Analysis/
-│   └── Logs.png
+├── 04_MITRE ATT&CK/
+│   └── MITRE ATT&CK.png
 │ 
 ├── 05_Results_of_Investigation/
 │   ├── Artifacts.png
