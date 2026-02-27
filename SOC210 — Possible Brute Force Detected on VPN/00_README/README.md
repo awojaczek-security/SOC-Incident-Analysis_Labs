@@ -94,7 +94,7 @@ Additionally, we verify this information in the AbuseIPDB database.
 <p align="center">
   <img src="../02_Tools_VT_&_AbuseIPDB/AbuseIPDB_2.png" width="600">
   <br>
-  <em>Figure 3: AbuseIPDB_2 Screenshot</em>
+  <em>Figure 4: AbuseIPDB_2 Screenshot</em>
 </p>
 
 The next step is to verify the log management information.
@@ -104,7 +104,7 @@ Five entries were found, and their dates and times are very close to the data co
 <p align="center">
   <img src="../03_Logs_Analysis/Logs.png" width="600">
   <br>
-  <em>Figure 4: Log Management</em>
+  <em>Figure 5: Log Management</em>
 </p>
 
 
@@ -129,7 +129,7 @@ The final results after the case was closed:
 <p align="center">
   <img src="../04_Results_of_Investigation/Results_of_my_research.png" width="600">
   <br>
-  <em>Figure 8: Results_of_my_research</em>
+  <em>Figure 7: Results_of_my_research</em>
 </p>
 
 
