@@ -150,19 +150,17 @@ We used VirusTotal and Hybrid Analysis to verify the file. These platforms helpe
 
 **Conclusions and observations from the analysis of malware using VBA macros**:
 
-- Checking the hash in tools such as VirusTotal allows for immediate correlation with a  database.
+- Checking the hash in tools such as VirusTotal allows for quick correlation of the sample with existing threat databases.
 
-- The presence of macros in an Office document significantly increases the risk level and requires thorough checking of the VBA code.
+- The presence of macros in Microsoft Office documents significantly increases the risk level and requires detailed analysis of the VBA code.
 
-- Macros are often obfuscated to hide their true purpose.
+- Macros are often obfuscated to hide their actual functionality and make analysis more difficult.
 
-- Malicious macros can be used to download additional payloads, execute system commands, or establish network connections.
+- Malicious macros can be used to download additional components (payloads), execute system commands, and establish network connections with the attacker's infrastructure.
 
-- Sandbox analysis (e.g., Hybrid Analysis) helps to see the actual behavior of the file after it is launched.
+- Dynamic analysis in a sandbox environment allows you to observe the actual behavior of the file after it is launched.
 
-- Correlating the hash, static (VBA) and dynamic (sandbox) analyses gives a more complete picture of the threat.
-
-- Hash verification is a quick first step, but it does not replace a full security analysis.
+- Hash verification is a quick and useful first step, but it does not replace a full security analysis.
 
 ## 📂 Project Structure
 
