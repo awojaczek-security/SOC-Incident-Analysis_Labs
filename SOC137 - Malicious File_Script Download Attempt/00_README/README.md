@@ -188,7 +188,7 @@ We used VirusTotal and Hybrid Analysis to verify the file. These platforms helpe
 ## 📂 Project Structure
 
 ```bash
-SOC169 - Possible-IDOR-Attack-Detected/
+SOC137 - Malicious File_Script Download Attempt/
 │
 ├── 00_README/
 │   └── README.md
@@ -196,18 +196,18 @@ SOC169 - Possible-IDOR-Attack-Detected/
 ├── 01_Details_about_incident/
 │   └── Incident_Details.png
 │
-├── 02_Tools_VT_&_AbuseIPDB/
-│   ├── AbuseIPDB.png
+├── 02_Tools_VT_&_ANY-RUN/
+│   ├── Shell_Commands.png
 │   └── VirusTotal.png
 │
-├── 03_Logs_Analysis/
-│   ├── Logs.png
-│   ├── Raw_Log_1.png
-│   ├── Raw_Log_2.png
-│   └── Raw_Log_3.png
+├── 03_Macros_Office_File/
+│   └── Macros_Office.png
 │
-├── 04_Results_of_Investigation/
-│   ├── Artifacts_table.png
+├── 04_Logs_Analysis/
+│   └── Logs.png
+│ 
+├── 05_Results_of_Investigation/
+│   ├── Artifacts.png
 │   └── Results_of_my_research.png
 
 ```
