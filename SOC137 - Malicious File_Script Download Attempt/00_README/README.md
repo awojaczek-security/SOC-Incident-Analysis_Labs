@@ -53,13 +53,16 @@ The alert was generated on **March 14, 2021, at 07:15 PM** and was triggered ind
 The file that was likely downloaded was named *INVOICE PACKAGE LINK TO DOWNLOAD.docm*. The size of this file is **16.66 KB**, and its hash is *f2d0c66b801244c059f636d08a474079*. The naming convention indicates a phishing attempt to trick the user into opening the file. Since it was a .docm file, it most likely contained malicious macros.
 
 The security system blocked the download, preventing execution on the endpoint. No confirmed compromise has been identified. However, macro-enabled documents are often used to deliver malware, establish persistence, or enable unauthorized access. 
+
 <p align="center">
   <img src="../01_Details_about_incident/Incident_Details.png" width="600">
   <br>
   <em>Figure 1: Incident_Details</em>
 </p>
 
-The file **INVOICE PACKAGE LINK TO DOWNLOAD.docm** was identified as malicious by antivirus engines, indicating a high probability that it poses a real threat. It is a Microsoft Word macro-enabled document with a size of 16.66 KB. The analysis revealed the presence of a macro named AutoOpen in the NewMacros.bas module, which executes automatically when the document is opened. The macro uses the Shell function to run a **PowerShell** command intended to download an additional file from a specified URL. The downloaded file may then be executed, enabling arbitrary code execution on the victim’s system.
+The file **INVOICE PACKAGE LINK TO DOWNLOAD.docm** was identified as malicious by antivirus engines, indicating a high probability that it poses a real threat. It is a Microsoft Word macro-enabled document with a size of 16.66 KB. The analysis revealed the presence of a macro named AutoOpen in the NewMacros.bas module, which executes automatically when the document is opened. The macro uses  **PowerShell** to run command intended to download an additional file from a specified URL. The downloaded file may then be executed, enabling arbitrary code execution on the victim’s system.
+
+Additionally, this file has also been checked in the **Hybrid-Analysis** and **ANY-RUN** environments. Both of these tools also detected malicious activity in the tested file.
 
 <p align="center">
   <img src="../02_Tools_VT_&_ANY-RUN/VirusTotal.png" width="600">
@@ -67,7 +70,23 @@ The file **INVOICE PACKAGE LINK TO DOWNLOAD.docm** was identified as malicious b
   <em>Figure 2: VirusTotal Screenshot</em>
 </p>
 
-Additionally, this file has also been checked in the **Hybrid-Analysis** and **ANY-RUN** environments. Both of these tools also detected malicious activity in the tested file.
+The Behavior tab of the VirusTotal website, in the **MITRE ATT&CK Tactics and Techniques** section, presents a mapping of behaviors observed by analytical engines and sandboxes to tactics and techniques from the **MITRE ATT&CK** framework.
+
+<p align="center">
+  <img src="../02_Tools_VT_&_ANY-RUN/MITRE ATT&CK.png" width="600">
+  <br>
+  <em>Figure 2: MITRE ATT&CK Tactics and Technique</em>
+</p>
+Based on the mappings to **MITRE ATT&CK** visible in the image, the following conclusions can be drawn:
+
+- The analyzed file can execute code (e.g., through a command interpreter and scripts) and inject it into other processes (*Process Injection*), which can be used to escalate privileges and hide activity.
+
+- The techniques indicated in the **Defense Evasion** area (including *masquerading*, *deobfuscation*, *sandbox/VM detection*) suggest that the sample is obfuscated and attempts to evade analysis and detection.
+
+- Behaviors in the **Discovery** category show that the file collects information about the system, processes, and environment, which is typical for malware preparing for further actions.
+
+- The presence of **Command & Control** techniques, including encrypted communication, indicates the possibility of connecting to an external control *server (C2)*.
+
 
 When the document is opened, the AutoOpen macro is launched, which executes a **PowerShell** command. The script calls the command:
 
@@ -197,6 +216,7 @@ SOC137 - Malicious File_Script Download Attempt/
 │   └── Incident_Details.png
 │
 ├── 02_Tools_VT_&_ANY-RUN/
+│   ├── MITRE ATT&CK.png
 │   ├── Shell_Commands.png
 │   └── VirusTotal.png
 │
