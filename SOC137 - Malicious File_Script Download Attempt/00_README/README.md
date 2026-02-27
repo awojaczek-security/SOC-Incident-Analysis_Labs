@@ -18,7 +18,26 @@
 
 ## 📁 SUMMARY
 
+On **March 14, 2021, at 07:15 PM** t he alert was generated and was triggered indicating a malicious file or script download attempt. The activity originated from an internal host and was successfully blocked by the security system. The source IP address was **172.16.17.37**, assigned to the hostname **NicolasPRD**.
 
+**Based on the research conducted, the following conclusions can be drawn**:
+
+- The generated alert concerned an attempt to download a potentially malicious Word document with macros, named **INVOICE PACKAGE LINK TO DOWNLOAD.docm**, which is a typical social engineering attack vector.
+
+- Analysis of the file hash (**MD5 hash**) in VirusTotal showed that many antivirus engines and sandboxes flag this file as malicious, confirming that it was not just a false alarm.
+
+- The document contains a VBA macro that executes malicious code that attempts to download another payload from the Internet.
+
+- The macro code uses obfuscation and PowerShell, which makes it difficult to detect and analyze statically. Obfuscation is a strategy typical of malicious macros designed to hide their intentions from security tools.
+
+- The security device blocked the download and execution of the file (“Device Action: Blocked”), which means that the attack did not infect the host at this stage.
+
+- There is no evidence of communication with external C2 servers or the download of further attack components in the system or network management logs. This indicates that the protective mechanisms prevented further escalation.
+
+Based on the analysis, the event was classified as a true positive, i.e., a real
+The file that was likely downloaded was named *INVOICE PACKAGE LINK TO DOWNLOAD.docm*. The size of this file is **16.66 KB**, and its hash is *f2d0c66b801244c059f636d08a474079*. The naming convention indicates a phishing attempt to trick the user into opening the file. Since it was a .docm file, it most likely contained malicious macros.
+
+ 
 ---
 
 ## 🛠️ Tools
@@ -39,11 +58,7 @@ To reduce the risk, it is recommended to run macros only from trusted sources. I
 
 ## 📸 Information and photos from the analysis of the Incident:
 
-The alert was generated on **March 14, 2021, at 07:15 PM** and was triggered indicating a malicious file or script download attempt. The activity originated from an internal host and was successfully blocked by the security system. The source IP address was **172.16.17.37**, assigned to the hostname **NicolasPRD**.
-
-The file that was likely downloaded was named *INVOICE PACKAGE LINK TO DOWNLOAD.docm*. The size of this file is **16.66 KB**, and its hash is *f2d0c66b801244c059f636d08a474079*. The naming convention indicates a phishing attempt to trick the user into opening the file. Since it was a .docm file, it most likely contained malicious macros.
-
-The security system blocked the download, preventing execution on the endpoint. No confirmed compromise has been identified. However, macro-enabled documents are often used to deliver malware, establish persistence, or enable unauthorized access. 
+Key information about the incident received:
 
 <p align="center">
   <img src="../01_Details_about_incident/Incident_Details.png" width="600">
