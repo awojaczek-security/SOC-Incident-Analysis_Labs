@@ -73,7 +73,7 @@ Additionally, this file has also been checked in the **Hybrid-Analysis** and **A
 The Behavior tab of the VirusTotal website, in the **MITRE ATT&CK Tactics and Techniques** section, presents a mapping of behaviors observed by analytical engines and sandboxes to tactics and techniques from the **MITRE ATT&CK** framework.
 
 <p align="center">
-  <img src="../02_Tools_VT_&_ANY-RUN/MITRE ATT&CK.png" width="600">
+  <img src="../04_MITRE ATT&CK.png/MITRE ATT&CK.png" width="600">
   <br>
   <em>Figure 3: MITRE ATT&CK Tactics and Technique</em>
 </p>
