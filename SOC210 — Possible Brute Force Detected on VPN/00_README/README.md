@@ -85,9 +85,16 @@ Additionally, we verify this information in the AbuseIPDB database.
 
 </p>
 <p align="center">
-  <img src="../02_Tools_VT_&_AbuseIPD/AbuseIPDB.png" width="600">
+  <img src="../02_Tools_VT_&_AbuseIPD/AbuseIPDB_1.png" width="600">
   <br>
-  <em>Figure 3: AbuseIPDB Screenshot</em>
+  <em>Figure 3: AbuseIPDB_1 Screenshot</em>
+</p>
+
+</p>
+<p align="center">
+  <img src="../02_Tools_VT_&_AbuseIPD/AbuseIPDB_2.png" width="600">
+  <br>
+  <em>Figure 3: AbuseIPDB_2 Screenshot</em>
 </p>
 
 The next step is to verify the log management information.
