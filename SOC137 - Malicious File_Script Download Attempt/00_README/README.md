@@ -131,6 +131,7 @@ The final results after the case was closed:
 
 **The Summary of the investigation**:
 
+The threat alert was received on **March 14, 2021, at 7:15 P.M.** and concerned an actual attempt to download a malicious document with macros, which was blocked by the system. Analysis confirmed that the file is malicious and uses obfuscated PowerShell macros to download further payloads – a typical malware scenario that was effectively stopped in its early stages thanks to security measures.
 
 
 ## 🔥 Lessons Learned
