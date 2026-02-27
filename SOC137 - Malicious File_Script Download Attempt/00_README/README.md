@@ -114,45 +114,6 @@ After detecting malware, the next step is to check endpoints and logs.
 Moving to the *Endpoint Security* tab and searching for the host **NicolasPRD**, no records were documented for the period when the alert appeared.
 Furthermore, when verifying network logs and *log management*, no communication with the suspicious IP address was found.
 
-</p>
-<p align="center">
-  <img src="../03_Logs_Analysis/Logs.png" width="600">
-  <br>
-  <em>Figure 6: Log Management</em>
-</p>
-The logs show that the attacker sent POST requests to five different user_ids in a short period of time. The status of each request is 200, which at first glance may indicate that the attack was successful. 
-
-The first example log:
-</p>
-<p align="center">
-  <img src="../03_Logs_Analysis/Raw_Log_1.png" width="600">
-  <br>
-  <em>Figure 5: Raw_logs_1 - user_id=1</em>
-</p>
-
-The second example log:
-</p>
-<p align="center">
-  <img src="../03_Logs_Analysis/Raw_Log_2.png" width="600">
-  <br>
-  <em>Figure 6: Raw_logs_2 - user_id=2</em>
-</p>
-
-The third example log:
-</p>
-<p align="center">
-  <img src="../03_Logs_Analysis/Raw_Log_3.png" width="600">
-  <br>
-  <em>Figure 7: Raw_logs_3 - user_id=4</em>
-</p>
-
-The attacker sent several requests with different values for the user_id=x parameter.
-
-IDOR (Insecure Direct Object Reference) occurs when an application provides a direct reference to a resource (e.g., user_id, order_id, file_id) and does not verify whether the currently logged-in user has access rights to the specified object.
-
-If the application only checks whether the user is logged in, but does not check whether the resource belongs to them, the attacker can modify the parameter in the request and gain access to another user's data, which was most likely the case with this alert.
-
-
 After completing the investigation and gathering all relevant evidence, the findings were analyzed, final conclusions were determined, and supporting artifacts were included to document the investigation process.
 
 These artifacts include:
@@ -160,12 +121,11 @@ These artifacts include:
 <p align="center">
 
 
-                          | Value                                | Comment                      | Type        |
-                          | -----------------------------------  | ---------------------------- | ----------- |
-                          | 178[.]175[.]67[.]109                 | IP Address - MD5             | IP Address  |  
-                          | 188[.]114[.]96[.]3                   | IP Address - DNS             | IP Address  |
-                          | f2d0c66b801244c059f636d08a474079     | Malicious Hash - MD5         | MD5 Hash    |
-                          | 172[.]16[.]17[.]37                   | Source IP Address            | IP Address  | 
+                          | Value                                                               | Comment                      | Type        |
+                          | ------------------------------------------------------------------  | ---------------------------- | ----------- |
+                          | hxxps[:]//filetransfer[.]io[/]data-package[/]UR2whuBv[/]download    | Malicious URL Address        | URL Address |
+                          | f2d0c66b801244c059f636d08a474079                                    | Malicious Hash - MD5         | MD5 Hash    |
+                          | 172[.]16[.]17[.]37                                                  | Source IP Address            | IP Address  | 
 </p>
 
 
