@@ -75,7 +75,7 @@ The Behavior tab of the VirusTotal website, in the **MITRE ATT&CK Tactics and Te
 <p align="center">
   <img src="../02_Tools_VT_&_ANY-RUN/MITRE ATT&CK.png" width="600">
   <br>
-  <em>Figure 2: MITRE ATT&CK Tactics and Technique</em>
+  <em>Figure 3: MITRE ATT&CK Tactics and Technique</em>
 </p>
 Based on the mappings to **MITRE ATT&CK** visible in the image, the following conclusions can be drawn:
 
@@ -98,7 +98,7 @@ The alias EX stands for *Invoke-Expression*, a function used to execute the pass
 <p align="center">
   <img src="../02_Tools_VT_&_ANY-RUN/Shell_Commands.png" width="600">
   <br>
-  <em>Figure 3: VirusTotal - Shell Commands</em>
+  <em>Figure 4: VirusTotal - Shell Commands</em>
 </p>
 
 After opening a *.docm* file in a sandbox environment, you can verify its behavior and check whether it contains malicious macros. Additionally, tools such as **oletools** can be used to perform static analysis of the document, including detection of macros, suspicious functions, and code obfuscation techniques. This allows you to confirm whether the file contains obfuscated or potentially malicious code before it is executed.
@@ -106,7 +106,7 @@ After opening a *.docm* file in a sandbox environment, you can verify its behavi
 <p align="center">
   <img src="../03_Macros_Office_File/Macros_Office.png" width="600">
   <br>
-  <em>Figure 4: Macros in Office File </em>
+  <em>Figure 5: Macros in Office File </em>
 </p>
 
 After detecting malware, the next step is to check endpoints and logs.
@@ -118,7 +118,7 @@ Furthermore, when verifying network logs and *log management*, no communication 
 <p align="center">
   <img src="../03_Logs_Analysis/Logs.png" width="600">
   <br>
-  <em>Figure 4: Log Management</em>
+  <em>Figure 6: Log Management</em>
 </p>
 The logs show that the attacker sent POST requests to five different user_ids in a short period of time. The status of each request is 200, which at first glance may indicate that the attack was successful. 
 
