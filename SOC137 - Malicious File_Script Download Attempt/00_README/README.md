@@ -148,7 +148,7 @@ After completing the investigation, the alert was confirmed as a True Positive. 
 
 We used VirusTotal and Hybrid Analysis to verify the file. These platforms helped us confirm malicious indicators, observe the file’s behavior in a sandbox environment, and compare the results with known threat intelligence. This gave us higher confidence in our final assessment and showed how important it is to use multiple sources during analysis.
 
-**What can be learned from analyzing malicious files containing macros**:
+**Conclusions and observations from the analysis of malware using VBA macros**:
 
 - Checking the hash in tools such as VirusTotal allows for immediate correlation with a  database.
 
