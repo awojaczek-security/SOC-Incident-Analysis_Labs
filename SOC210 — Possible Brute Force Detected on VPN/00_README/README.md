@@ -31,7 +31,7 @@ The following tools were used in this alert:
 - [VirusTotal](https://www.virustotal.com/)
 - [AbuseIPDB](https://www.abuseipdb.com/)
   
-## 🔐 BRUTE FORCE ATTACK - What is the IDOR? - the most important informations
+## 🔐 BRUTE FORCE ATTACK - What is it? - the most important informations
 
 A **brute force attack** is a technique that involves repeatedly and automatically trying different combinations of usernames and passwords in order to gain unauthorized access to a system, application, network service, or user account.
 
