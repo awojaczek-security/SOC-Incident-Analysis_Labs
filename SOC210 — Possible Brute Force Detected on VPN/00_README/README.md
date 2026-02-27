@@ -76,7 +76,7 @@ The alert was generated on **February 28, 2022, at 10:48 P.M.** and was describe
 
 
 <p align="center">
-  <img src="../02_Tools_VT_&_AbuseIPD/VirusTotal.png" width="600">
+  <img src="../02_Tools_VT_&_AbuseIPDB/VirusTotal.png" width="600">
   <br>
   <em>Figure 2: VirusTotal Screenshot</em>
 
@@ -85,14 +85,14 @@ Additionally, we verify this information in the AbuseIPDB database.
 
 </p>
 <p align="center">
-  <img src="../02_Tools_VT_&_AbuseIPD/AbuseIPDB_1.png" width="600">
+  <img src="../02_Tools_VT_&_AbuseIPDB/AbuseIPDB_1.png" width="600">
   <br>
   <em>Figure 3: AbuseIPDB_1 Screenshot</em>
 </p>
 
 </p>
 <p align="center">
-  <img src="../02_Tools_VT_&_AbuseIPD/AbuseIPDB_2.png" width="600">
+  <img src="../02_Tools_VT_&_AbuseIPDB/AbuseIPDB_2.png" width="600">
   <br>
   <em>Figure 3: AbuseIPDB_2 Screenshot</em>
 </p>
