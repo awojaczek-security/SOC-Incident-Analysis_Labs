@@ -69,8 +69,7 @@ The User-Agent was identified as **Mozilla/4.0 (MSIE 6.0 on Windows NT 5.1 with 
 </p>
 
 
-The source IP address **134[.]209[.]118[.]137** was analyzed using VirusTotal.
-The scan results showed 0 threats detected by all security vendors,indicating that no known malicious activity or reputation issues were found at the time of analysis. Only in the Community Score section do we see information about some malicious activity, which we cannot ignore. To be sure, we will check the same IP address using the AbuseIPDB tool. 
+A reputation check in VirusTotal showed no malicious activity associated with the source IP address 37.19.221.229. All security vendors reported 0 detections, indicating no known malicious reputation at the time of analysis.
 
 This address originates from the United States.
 
