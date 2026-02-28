@@ -82,7 +82,9 @@ This address originates from the United States.
   <em>Figure 2: VirusTotal Screenshot</em>
 
 Additionally, we verify this information in the AbuseIPDB database.
+The IP address **37.19.221.229** has been reported 64 times by 41 sources in **AbuseIPDB**, indicating links to suspicious activity. The Confidence of Abuse score is 11%, indicating a relatively low current risk. 
 
+In summary, the IP has a history of reports but is not currently clearly classified as actively malicious and requires further analysis in the context of the incident.
 
 </p>
 <p align="center">
