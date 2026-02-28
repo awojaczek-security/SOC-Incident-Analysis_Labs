@@ -99,7 +99,7 @@ The IP address **37.19.221.229** has been reported 64 times in **AbuseIPDB** by 
 </p>
 
 The next step is to verify the log management information.
-Five entries were found, and their dates and times are very close to the data contained in the alert.
+
 
 </p>
 <p align="center">
@@ -108,9 +108,20 @@ Five entries were found, and their dates and times are very close to the data co
   <em>Figure 5: Log Management</em>
 </p>
 
+Analysis of detailed logs revealed numerous failed attempts to log into the VPN network from a single IP address. The attacker tried using multiple usernames until the correct account was identified (mane@letsdefend.io). After a series of unsuccessful attempts, a successful login to this account was recorded. This pattern of activity is characteristic of a brute force or password spraying attack and may indicate that credentials have been compromised.
+</p>
+<p align="center">
+  <img src="../03_Logs_Analysis/Logs_Login_Wrong.png" width="600">
+  <br>
+  <em>Figure 6: Log Management - Incorrect login</em>
+</p>
 
-
-
+</p>
+<p align="center">
+  <img src="../03_Logs_Analysis/Logs_Login_Successful.png" width="600">
+  <br>
+  <em>Figure 5: Log Management - Login Successful!!</em>
+</p>
 
 These artifacts include:
 </p>
