@@ -72,8 +72,9 @@ This alert describes an event detected as a potential brute force attack on a VP
   <em>Figure 1: Incident_Details</em>
 </p>
 
+A reputation check in VirusTotal showed no malicious activity associated with the source IP address 37.19.221.229. All security vendors reported 0 detections, indicating no known malicious reputation at the time of analysis.
 
-
+This address originates from the United States.
 
 <p align="center">
   <img src="../02_Tools_VT_&_AbuseIPDB/VirusTotal.png" width="600">
