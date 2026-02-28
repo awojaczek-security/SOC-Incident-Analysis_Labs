@@ -63,8 +63,8 @@ This attack can be identified by:
 
 ## 📸 Information and photos from the analysis of the Incident:
 
-The alert was generated on **February 28, 2022, at 10:48 P.M.** and was described as an IDOR attack. The incident involved the **WebServer1005** server with the address **172.16.17.15**(Destination IP Address), to which requests were sent from the external IP address **134.209.118.137**(Source IP Address). Multiple consecutive **POST** requests were detected. 
-
+The alert was generated on **Jun, 21, 2023, 01:51 PM**.
+This alert describes an event detected as a potential brute force attack on a VPN service. Multiple failed login attempts to various user accounts were recorded from a single IP address. After a series of failed attempts, a successful login to the account *mane@letsdefend.io*. This pattern of activity is characteristic of a password guessing attack. The event indicates a high risk of user account takeover. The incident requires further analysis of post-login activity and security measures such as password reset and source IP address verification.
 
 <p align="center">
   <img src="../01_Details_about_incident/Incident_Details.png" width="600">
