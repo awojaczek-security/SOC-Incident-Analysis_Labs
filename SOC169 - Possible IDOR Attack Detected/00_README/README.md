@@ -69,9 +69,7 @@ The User-Agent was identified as **Mozilla/4.0 (MSIE 6.0 on Windows NT 5.1 with 
 </p>
 
 
-A reputation check in VirusTotal showed no malicious activity associated with the source IP address 37.19.221.229. All security vendors reported 0 detections, indicating no known malicious reputation at the time of analysis.
-
-This address originates from the United States.
+The source IP address **134.209.118.137** has not been flagged as malicious by any of the 93 security engines in VirusTotal (*score 0/93*). The community score is **-1**, which means that there is one negative community rating, but it has not been confirmed by detection mechanisms. The address belongs to **AS14061 (DigitalOcean, LLC)**, a popular cloud service provider. The location of the IP address indicates the United States. Based on the available information, the address has no known malicious reputation, but further analysis of this incident is necessary to obtain more precise information.
 
 <p align="center">
   <img src="../02_Tools_VT_&_AbuseIPD/VirusTotal.png" width="600">
