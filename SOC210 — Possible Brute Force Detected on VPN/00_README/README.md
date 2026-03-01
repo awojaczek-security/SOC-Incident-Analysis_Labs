@@ -32,6 +32,7 @@ After obtaining the correct username, the attacker continued his attempts and ev
 During the investigation, no further suspicious activity was noted on the user's host after the successful login, suggesting that the attacker did not continue their activities after gaining access.
 
 Based on the analysis, the incident was classified as a true positive, and the recommendation included escalating the alert to SOC L2 and taking preventive measures (e.g., *password reset* or *account lockout*) to mitigate further risk.
+
 ---
 
 ## 🛠️ Tools
