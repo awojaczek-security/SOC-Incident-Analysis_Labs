@@ -124,9 +124,9 @@ Analysis of detailed logs revealed numerous failed attempts to log into the **VP
 
 </p>
 <p align="center">
-  <img src="../04_Endpoint_Securitys/Endpoint_Infotmation.png" width="600">
+  <img src="../04_Endpoint_Securitys/Endpoint_Information.png" width="600">
   <br>
-  <em>Figure 6: Endpoint - Victim's original IP address - Mane!!</em>
+  <em>Figure 6: Endpoint - Victim's original IP address - Mane</em>
 </p>
 These artifacts include:
 </p>
