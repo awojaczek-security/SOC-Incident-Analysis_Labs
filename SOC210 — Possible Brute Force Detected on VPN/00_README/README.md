@@ -10,8 +10,8 @@
 - **Event ID**: 162 
 - **Event Time**: Jun, 21, 2023, 01:51 PM 
 - **Detection Rule**: SOC210 — Possible Brute Force Detected on VPN
-- **Source Address**: 37.19.221.229
-- **Destination Address**: 33.33.33.33
+- **Source IP Address**: 37.19.221.229
+- **Destination IP Address**: 33.33.33.33
 - **Destination Hostname**: Mane
 - **Alert Level**: Security Analyst  
 - **Type**: Brute Force
