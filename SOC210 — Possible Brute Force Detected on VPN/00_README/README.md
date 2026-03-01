@@ -173,20 +173,23 @@ The final results after the case was closed:
 
 ## 🔥 Lessons Learned
 
-After completing the investigation, the alert has been confirmed as a True Positive. 
+After the investigation was completed, the alert was confirmed as a **true positive** because the activity matched the pattern of a brute force attack on a VPN service.
 
-The findings enhanced our understanding of IDOR attack patterns and helped validate the effectiveness of our detection and response procedures.
+This incident showed that repeated failed login attempts from a single IP address followed by successful authentication can indicate a breach of credential security.
 
-Such incidents should never be ignored and require consistent, detailed analysis, as they may contain a variety of artifacts.
+This case demonstrated that even if no further malicious activity was observed after successful login, the incident should still be treated as a potential security breach requiring immediate action, such as password reset and account monitoring.
 
-Every alert must be properly verified. As SOC analysts, we must remain vigilant and approach each investigation in an orderly and methodical manner.
+- The investigation strengthened our ability to:
 
-This laboratory training gave us the following skills:
-- it strengthened our skills in using online tools such as AbusedIPDB, VirusTotal an MalwareURL.
-- learning a new attack method - IDOR and how to detect and eliminate it
-- detecting threats
-- gathering information about threats
-- documenting incident response
+- Detect and analyze brute force attack patterns in VPN authentication logs.
+
+- Correlate failed and successful login attempts to identify account compromises.
+
+- Use threat analysis tools such as AbuseIPDB and VirusTotal to assess the reputation of IP addresses.
+
+- Examine endpoint activity to determine post-authentication behavior.
+
+- Properly document findings and classify alerts as true positives or false positives.
 
 ## 📂 Project Structure
 
