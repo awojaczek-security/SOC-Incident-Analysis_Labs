@@ -125,8 +125,7 @@ Analysis of detailed logs revealed numerous failed attempts to log into the **VP
 In the next stage, Mane's activity in the Endpoint Security system was verified to check whether any suspicious processes, unusual network connections, or commands had been executed after the incident.
 The analysis showed that after the alert was generated, i.e., after successfully logging into the **VPN**, no suspicious system activity was recorded.
 
-It was also noted that the IP address of the end system differs from the destination address indicated in the logs (**33.33.33.33**).
-This is due to the fact that **33.33.33.33** is the address of the **VPN server/gateway**, while after establishing the connection, the user receives an internal IP address within the company network.
+It was also noted that the IP address of the end system differs from the destination address indicated in the logs (**33.33.33.33**). This is due to the fact that **33.33.33.33** is the public address of the **VPN gateway**, while after establishing a connection, the user receives an internal IP address within the company network.
 
 </p>
 <p align="center">
