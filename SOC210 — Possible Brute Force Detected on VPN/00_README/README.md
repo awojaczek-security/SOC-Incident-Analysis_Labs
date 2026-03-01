@@ -130,7 +130,7 @@ Analysis of detailed logs revealed numerous failed attempts to log into the **VP
 <p align="center">
   <img src="../03_Logs_Analysis/Logs_Login_Successful.png" width="600">
   <br>
-  <em>Figure 5: Log Management - Login Successful!!</em>
+  <em>Figure 7: Log Management - Login Successful!!</em>
 </p>
 
 In the next stage, Mane's activity in the Endpoint Security system was verified to check whether any suspicious processes, unusual network connections, or commands had been executed after the incident.
@@ -142,7 +142,7 @@ It was also noted that the IP address of the end system differs from the destina
 <p align="center">
   <img src="../04_Endpoint_Security/Endpoint_Information.png" width="600">
   <br>
-  <em>Figure 6: Endpoint - Victim's original IP address - Mane</em>
+  <em>Figure 8: Endpoint - Victim's original IP address - Mane</em>
 </p>
 These artifacts include:
 </p>
@@ -163,7 +163,7 @@ The final results after the case was closed:
 <p align="center">
   <img src="../05_Results_of_Investigation/Results_of_my_research.png" width="600">
   <br>
-  <em>Figure 7: Results_of_my_research</em>
+  <em>Figure 9: Results_of_my_research</em>
 </p>
 
 
