@@ -168,6 +168,7 @@ The final results after the case was closed:
 
 
 **The Summary of the investigation**:
+
 The warning concerned suspicious access to the **VPN network**. After multiple failed login attempts from a single IP address, it was finally successful — indicating a brute force attack. The IP address **37.19.221.229** had a negative reputation. The attacker tested various usernames until gaining access to the *mane@letsdefend.io* account. After successfully logging in, no further suspicious activity was observed on the host. The incident was confirmed as a true positive. Escalation to **SOC L2** and preventive measures such as password reset and account security were recommended.
 
 
