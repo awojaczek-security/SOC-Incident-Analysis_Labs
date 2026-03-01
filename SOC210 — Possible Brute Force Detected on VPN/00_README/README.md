@@ -21,7 +21,17 @@
 
 ## 📁 SUMMARY
 
+On **June 21, 2023, at 01:51 PM**, an alert was triggered due to suspicious VPN access. The activity involved multiple failed login attempts from a single IP address, followed by a successful authentication, which is characteristic of a brute force attack pattern.
 
+The source of the IP address **37.19.221.229** was checked using VirusTotal and AbuseIPDB tools and found to have been previously reported as suspicious, particularly in the context of brute force attack attempts and spam, confirming its negative reputation.
+
+Analysis of the logs showed that the attacker attempted to log in using a variety of different usernames until he identified and correctly guessed the account mane@letsdefend.io.
+
+After obtaining the correct username, the attacker continued his attempts and eventually gained access to the **VPN**, giving him a potential entry point into the internal network.
+
+During the investigation, no further suspicious activity was noted on the user's host after the successful login, suggesting that the attacker did not continue their activities after gaining access.
+
+Based on the analysis, the incident was classified as a true positive, and the recommendation included escalating the alert to SOC L2 and taking preventive measures (e.g., *password reset* or *account lockout*) to mitigate further risk.
 ---
 
 ## 🛠️ Tools
