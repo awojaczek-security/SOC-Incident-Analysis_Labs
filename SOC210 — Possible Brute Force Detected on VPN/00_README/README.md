@@ -130,7 +130,8 @@ These artifacts include:
                           | Value                            | Comment                                    | Type           |
                           | ---------------------------------| ------------------------------------------ | -------------- |
                           | 33[.]33[.]33[.]33                | Destination IP Address                     | IP Address     |  
-                          | 37[.]19[.]221[.]29               | Malicious IP address                       | IP Address     |
+                          | 37[.]19[.]221[.]229              | Malicious IP address                       | IP Address     |
+                          | 172[.]16[.]17[.]210              | Victim's IP address - Mane                 | IP Address     |
                           | mane@letsdefend[.]io             | Compromised credential - Email Address     | Email Address  | 
 </p>
 
