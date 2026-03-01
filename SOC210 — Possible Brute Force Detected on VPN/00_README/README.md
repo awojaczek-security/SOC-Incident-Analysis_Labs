@@ -180,7 +180,7 @@ This laboratory training gave us the following skills:
 ## 📂 Project Structure
 
 ```bash
-SOC169 - Possible-IDOR-Attack-Detected/
+SOC210 — Possible Brute Force Detected on VPN/
 │
 ├── 00_README/
 │   └── README.md
@@ -189,18 +189,20 @@ SOC169 - Possible-IDOR-Attack-Detected/
 │   └── Incident_Details.png
 │
 ├── 02_Tools_VT_&_AbuseIPDB/
-│   ├── AbuseIPDB.png
+│   ├── AbuseIPDB_1.png
+│   ├── AbuseIPDB_2.png
 │   └── VirusTotal.png
 │
 ├── 03_Logs_Analysis/
 │   ├── Logs.png
-│   ├── Raw_Log_1.png
-│   ├── Raw_Log_2.png
-│   └── Raw_Log_3.png
+│   ├── Logs_Login_Successful.png
+│   └── Logs_Login_Wrong.png
 │
-├── 04_Results_of_Investigation/
-│   ├── Artifacts_table.png
-│   └── Results_of_my_research.png
+├── 04_Endpoint_Security/
+│   └── Endpoint_Information.png
+│
+└── 05_Results_of_Investigation/
+    └── Results_of_my_research.png
 
 ```
 
