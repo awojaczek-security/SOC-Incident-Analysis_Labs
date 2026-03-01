@@ -122,6 +122,12 @@ Analysis of detailed logs revealed numerous failed attempts to log into the **VP
   <em>Figure 5: Log Management - Login Successful!!</em>
 </p>
 
+</p>
+<p align="center">
+  <img src="../04_Endpoint_Securitys/Endpoint_Infotmation.png" width="600">
+  <br>
+  <em>Figure 6: Endpoint - Victim's original IP address - Mane!!</em>
+</p>
 These artifacts include:
 </p>
 <p align="center">
@@ -139,7 +145,7 @@ These artifacts include:
 The final results after the case was closed:
 </p>
 <p align="center">
-  <img src="../04_Results_of_Investigation/Results_of_my_research.png" width="600">
+  <img src="../05_Results_of_Investigation/Results_of_my_research.png" width="600">
   <br>
   <em>Figure 7: Results_of_my_research</em>
 </p>
